@@ -21,4 +21,6 @@
 	</bean>
 
 
+    <bean class="viewer.security.ApplicationSecurityContext" />
+
 </beans>

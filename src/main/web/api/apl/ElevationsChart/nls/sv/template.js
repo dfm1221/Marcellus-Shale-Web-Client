@@ -6,8 +6,8 @@
     selectLine: "Välj ett geoobjekt på kartan.",
     popupRequirement: "Obs! Geoobjektet måste finnas i ett geoobjektslager eller vara en del av en karttjänst där popupfönster har aktiverats.",
     digitizeDistanceMeasureTool: "Använd knappen <b>Mät</b>.",
-    selectFeatureHelpUrl: "http://help.arcgis.com/sv/arcgisonline/help/index.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
-    measureToolHelpUrl: "http://help.arcgis.com/sv/arcgisonline/help/index.html#//010q00000096000000",
+    selectFeatureHelpUrl: "http://help.arcgis.com/sv/arcgisonline/help/mapView.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
+    measureToolHelpUrl: "http://help.arcgis.com/sv/arcgisonline/help/mapView.html#//010q00000096000000",
     hoverOver: "Hovra över ",
     touchIPad: "peka på iPad",
     locationOnMap: "diagrammet Profil för höjdkurva för att visa höjder och visa platsen på kartan."

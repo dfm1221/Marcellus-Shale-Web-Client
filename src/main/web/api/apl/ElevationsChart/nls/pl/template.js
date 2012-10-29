@@ -6,8 +6,8 @@
     selectLine: "Wybierz funkcję na mapie.",
     popupRequirement: "UWAGA: funkcja musi znajdować się w warstwie tematycznej funkcji lub być częścią serwisu mapowego, który ma udostępnione wyskakujące okna.",
     digitizeDistanceMeasureTool: "Użyj przycisku <b>Pomiar</b>.",
-    selectFeatureHelpUrl: "http://help.arcgis.com/pl/arcgisonline/help/index.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
-    measureToolHelpUrl: "http://help.arcgis.com/pl/arcgisonline/help/index.html#//010q00000096000000",
+    selectFeatureHelpUrl: "http://help.arcgis.com/pl/arcgisonline/help/mapView.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
+    measureToolHelpUrl: "http://help.arcgis.com/pl/arcgisonline/help/mapView.html#//010q00000096000000",
     hoverOver: "Kursor nad ",
     touchIPad: "naciśnij na urządzeniu iPad",
     locationOnMap: "diagram profilu wzniesienia, aby wyświetlić wzniesienia i lokalizację na mapie."

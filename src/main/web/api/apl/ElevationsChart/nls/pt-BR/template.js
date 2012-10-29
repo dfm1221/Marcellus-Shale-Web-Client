@@ -6,8 +6,8 @@
     selectLine: "Selecione uma feição no mapa.",
     popupRequirement: "NOTA: A feição precisa estar em uma Camada de Feição ou ser parte de um serviço de mapa com Pop-ups habilitados.",
     digitizeDistanceMeasureTool: "Use o botão <b>Medir</b>.",
-    selectFeatureHelpUrl: "http://help.arcgis.com/pt-br/arcgisonline/help/index.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
-    measureToolHelpUrl: "http://help.arcgis.com/pt-br/arcgisonline/help/index.html#//010q00000096000000",
+    selectFeatureHelpUrl: "http://help.arcgis.com/pt-br/arcgisonline/help/mapView.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
+    measureToolHelpUrl: "http://help.arcgis.com/pt-br/arcgisonline/help/mapView.html#//010q00000096000000",
     hoverOver: "Pairar ",
     touchIPad: "toque no iPad",
     locationOnMap: "o gráfico do Perfil de Elevação  para exibir as elevações e mostrar o local no mapa."

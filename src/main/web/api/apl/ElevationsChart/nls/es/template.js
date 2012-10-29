@@ -6,8 +6,8 @@
     selectLine: "Seleccionar una entidad en el mapa.",
     popupRequirement: "NOTA: La entidad tiene que estar en una capa de entidad o formar parte de un servicio de mapas con las ventanas emergentes activadas.",
     digitizeDistanceMeasureTool: "Utilizar el botón <b>Medir</b>.",
-    selectFeatureHelpUrl: "http://help.arcgis.com/es/arcgisonline/help/index.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
-    measureToolHelpUrl: "http://help.arcgis.com/es/arcgisonline/help/index.html#//010q00000096000000",
+    selectFeatureHelpUrl: "http://help.arcgis.com/es/arcgisonline/help/mapView.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
+    measureToolHelpUrl: "http://help.arcgis.com/es/arcgisonline/help/mapView.html#//010q00000096000000",
     hoverOver: "Pasar el ratón ",
     touchIPad: "tocar en el iPad",
     locationOnMap: "el gráfico de perfil de elevación para ver las elevaciones y la ubicación en el mapa."

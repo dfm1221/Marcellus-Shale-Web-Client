@@ -6,8 +6,8 @@
     selectLine: "Selectaţi un obiect spaţial din hartă.",
     popupRequirement: "NOTĂ: linia trebuie să se afle într-un strat tematic de obiecte spaţiale sau să facă parte dintr-un serviciu de hartă care are activate Mesaje pup-up.",
     digitizeDistanceMeasureTool: "Utilizaţi butonul <b>Măsurare</b>.",
-    selectFeatureHelpUrl: "http://help.arcgis.com/ro/arcgisonline/help/index.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
-    measureToolHelpUrl: "http://help.arcgis.com/ro/arcgisonline/help/index.html#//010q00000096000000",
+    selectFeatureHelpUrl: "http://help.arcgis.com/ro/arcgisonline/help/mapView.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
+    measureToolHelpUrl: "http://help.arcgis.com/ro/arcgisonline/help/mapView.html#//010q00000096000000",
     hoverOver: "Suprapuneţi mouse-ul peste ",
     touchIPad: "atingeţi pe iPad",
     locationOnMap: "diagrama Profil elevaţie pentru a afişa elevaţiile şi pentru a afişa locaţia pe hartă."

@@ -6,8 +6,8 @@
     selectLine: "Выберите объект на карте.",
     popupRequirement: "ПРИМЕЧАНИЕ: Пространственный объект должен принадлежать векторному слою или быть частью картографического сервиса со включенными всплывающими окнами.",
     digitizeDistanceMeasureTool: "Используйте кнопку <b>Изменить</b>.",
-    selectFeatureHelpUrl: "http://help.arcgis.com/ru/arcgisonline/help/index.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
-    measureToolHelpUrl: "http://help.arcgis.com/ru/arcgisonline/help/index.html#//010q00000096000000",
+    selectFeatureHelpUrl: "http://help.arcgis.com/ru/arcgisonline/help/mapView.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
+    measureToolHelpUrl: "http://help.arcgis.com/ru/arcgisonline/help/mapView.html#//010q00000096000000",
     hoverOver: "Задержать над ",
     touchIPad: "сенсорный iPad",
     locationOnMap: "график профиля высот для отображения высот и местоположений на карте."

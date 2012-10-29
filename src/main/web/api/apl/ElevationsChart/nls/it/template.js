@@ -6,8 +6,8 @@
     selectLine: "Selezionare una feature nella mappa.",
     popupRequirement: "NOTA: la feature deve essere inclusa in un feature layer o far parte di un map service per il quale sono abilitati i popup.",
     digitizeDistanceMeasureTool: "Utilizzare il pulsante <b>Misura</b>.",
-    selectFeatureHelpUrl: "http://help.arcgis.com/it/arcgisonline/help/index.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
-    measureToolHelpUrl: "http://help.arcgis.com/it/arcgisonline/help/index.html#//010q00000096000000",
+    selectFeatureHelpUrl: "http://help.arcgis.com/it/arcgisonline/help/mapView.html#//010q0000004s000000#ESRI_SECTION1_DAA22E89DF67448E8F3682309F39BE5D",
+    measureToolHelpUrl: "http://help.arcgis.com/it/arcgisonline/help/mapView.html#//010q00000096000000",
     hoverOver: "Passare il mouse ",
     touchIPad: "toccare su iPad",
     locationOnMap: "sul grafico Profilo di elevazione per visualizzare le elevazioni e mostrare la posizione nella mappa."

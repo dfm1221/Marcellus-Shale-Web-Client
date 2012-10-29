@@ -49,6 +49,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/web/BaseController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/web/BaseController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/web/BaseController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/dao/data-access-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-dozer-mappings.xml" charset="UTF-8" />
