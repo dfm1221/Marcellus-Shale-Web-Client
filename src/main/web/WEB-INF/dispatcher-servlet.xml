@@ -17,25 +17,26 @@
     <mvc:annotation-driven />
     <context:component-scan base-package="viewer.web"></context:component-scan>
 
-    <bean class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
-        <property name="definitions">
-            <list>
-                <value>/WEB-INF/layouts/main-layout.xml</value>
-                <value>/WEB-INF/views/**/views.xml</value>
-            </list>
-        </property>
-    </bean>
+    <!--<bean class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">-->
+        <!--<property name="definitions">-->
+            <!--<list>-->
+                <!--<value>/WEB-INF/layouts/main-layout.xml</value>-->
+                <!--<value>/WEB-INF/views/**/views.xml</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
         <property name="prefix">
             <value>/WEB-INF/views/</value>
         </property>
         <property name="suffix">
-            <value>.jsp</value>
-        </property>
+        <value>.jsp</value>
+    </property>
+
     </bean>
 
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+    <!--<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>-->
 
 
 
