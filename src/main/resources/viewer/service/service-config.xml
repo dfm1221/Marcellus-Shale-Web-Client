@@ -11,6 +11,7 @@
 
 	<context:component-scan base-package="viewer.service" />
 	<context:component-scan base-package="viewer.mapper" />
+    <context:component-scan base-package="viewer.security"/>
 	
 	<bean id="serviceBeanMapper" class="org.dozer.DozerBeanMapper" lazy-init="false" scope="singleton">
 		<property name="mappingFiles">
@@ -21,6 +22,6 @@
 	</bean>
 
 
-    <bean class="viewer.security.ApplicationSecurityContext" />
+    <bean id="applicationSecurityContext" class="viewer.security.ApplicationSecurityContext" />
 
 </beans>

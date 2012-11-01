@@ -16,7 +16,7 @@
 
     <mvc:annotation-driven />
     <context:component-scan base-package="viewer.web"></context:component-scan>
-
+    <context:component-scan base-package="viewer.security"/>
     <!--<bean class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">-->
         <!--<property name="definitions">-->
             <!--<list>-->
@@ -35,6 +35,8 @@
     </property>
 
     </bean>
+
+    <bean class="viewer.security.ApplicationSecurityContext" name="applicationSecurityContext"/>
 
     <!--<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>-->
 
