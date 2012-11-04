@@ -67,6 +67,9 @@
     <orderEntry type="library" name="jstl-1.2" level="project" />
     <orderEntry type="library" name="spring-security-core-3.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="commons-collections-3.2.1" level="project" />
+    <orderEntry type="library" name="spring-web" level="project" />
+    <orderEntry type="library" name="spring-security-web-3.1.1.RELEASE" level="project" />
+    <orderEntry type="library" name="hibernate-jpamodelgen-1.0.0-20091027.191706-11" level="project" />
   </component>
 </module>
 

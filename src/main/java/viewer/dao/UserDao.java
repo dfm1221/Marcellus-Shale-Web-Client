@@ -9,7 +9,7 @@ import viewer.model.User;
  */
 public interface UserDao extends SingleEntityDao<User>{
 
-
+User readByUsernameForPasswordLogin(String username);
 
 
 
