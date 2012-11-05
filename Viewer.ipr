@@ -72,22 +72,22 @@
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-dozer-mappings.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/layouts" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_banner_bg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_header_bg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_pagetitle_bg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_pagetitle_bg.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_panel_bg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_primnav_tab_bg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/help2.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/icons_sprite_eocil_navbar.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/login/login_bodybg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/login/login_form_bg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/menuHighlight_EOCIL.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/user1.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/styles/core.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/styles/login.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/tiles/topMenu.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/views.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/eocil_banner_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/eocil_header_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/eocil_pagetitle_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/eocil_pagetitle_bg.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/eocil_panel_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/eocil_primnav_tab_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/help2.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/icons_sprite_eocil_navbar.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/login/login_bodybg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/login/login_form_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/menuHighlight_EOCIL.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/user1.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/styles/core.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/styles/login.css" charset="UTF-8" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />

@@ -1,0 +1,594 @@
+/** Defines the width and height of the entire app content viewing area **/
+
+#appLayout {
+	height: 500px;
+	width: 100%;
+}
+
+/** For pages with split panel, assign left panel to have 40% width **/
+
+#appLayout .dijitContentPane.dijitAlignLeft {
+	width:50%;
+}
+
+
+
+
+/*Remove border around content of pages with menu bar followed by split pane with table and tab panels*/
+
+#appLayout.dijitBorderContainer {
+    border: 0px;
+}
+
+
+
+/*Remove inner borders around menu bar on pages with menu bar, table, tab panel arrangement */
+
+
+#appLayout .dijitMenuBar {
+    border: 0px;
+}
+
+
+/*CURRENTLY DISABLED MAY NOT BE NEEDED: Remove inner borders around menu bar, table and tab panel */
+/*
+#appLayout.dijitSplitContainer-child, #appLayout.dijitBorderContainer-child {
+    border: 0px;
+}
+*/
+
+
+
+
+
+/*Tighten up spacing between elements on pages where content has menu bar, table and tabs */
+
+#appLayout .dijitContentPane {
+    padding: 0px;
+}
+
+
+
+.detailHeader
+{
+	font-weight: bold;
+	padding-left: 10px;
+	/*float: left;*/
+	width: 150px;
+}
+
+.detailValue
+{
+	padding-left: 15px;
+	/*float: left;*/
+	width: 400px;
+}
+
+.detailOwner
+{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.clear
+{
+	clear: both;	
+}
+
+/* Used to style rows of data within a dijit.layout.ContentPane */
+.dijitContentPane .row {
+	padding-left:15px;
+	padding-top:10px;
+}
+.dijitContentPane .row label {
+	 display: inline-block;
+	 font-weight: bold;
+	 width: 100px;
+}
+.dijitContentPane .row span {
+} 
+
+.dijitContentPane .row .fieldSubtext {
+	display: block;
+	color:gray;
+}
+
+.formerrors {
+	color: red;
+}
+
+
+/* ----------------------------------- */
+/* Begin styles for APPLICATION BANNER */
+/* Note: background image URL pathing may need tweaking */
+/* ----------------------------------- */
+
+.north {
+    background-image : url("../img/eocil_header_bg.jpg");
+    background-repeat : repeat-x;
+}
+
+
+.eocil_banner {
+    height : 40px;
+	margin-right:7px;
+	min-width:800px;
+}
+
+
+.eocil_banner_text {
+	text-align: right;
+	padding-top:2px;
+}
+.eocil_banner_text span {
+	margin-left:25px;
+	color: #ffffff;
+	font-size: 14px;
+	font-family:Calibri, Verdana, Arial, Helvetica, sans-serif;
+}
+.eocil_banner_text a {
+	color: #ffffff;
+	text-decoration:none;
+}
+.eocil_banner_text a:hover {
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+
+/* --------------------------------------------------- */
+/* Begin styles for NAVIGATION BAR ON LEFT SIDE OF APP */
+/* Note: background image URL pathing may need tweaking */
+/* ---------------------------------------------------- */
+
+
+
+
+#projectNavContainer {
+	margin:5px;
+	padding:5px;
+	/*width: 980px;*/
+	background: #fff;
+	/*border: 1px solid #dbdbdb;*/
+}
+
+
+
+#projectNavContainer h1 {
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 0 10px;
+}
+
+
+#projectNavMenu {
+	width:100%;
+}
+
+
+#projectNavMenu .dijitMenu {
+    border: 1px solid #B5BCC7;
+}
+
+#projectNavMenu td.dijitMenuItemIconCell {
+    padding-left: 5px;
+}
+
+
+#projectNavContainer .claro .dijitMenu {
+	border:0px;
+}
+
+.admin_user_accounts {
+	background-image:url(../img/icon_user1_16x16.png);
+	height: 16px;
+	width: 16px;
+}
+
+.projectnav_assignedusers {
+	background-image:url(../img/user1.png);	
+	height: 16px;
+	width: 16px;
+}
+
+/* orignal suggested classes which may no longer be used */
+
+
+#EOCILnavbar table {
+	width:162px;
+}
+
+#EOCILnavbar .dijitMenuPassive .dijitMenuItemHover, #EOCILnavbar .dijitMenuPassive .dijitMenuItemSelected {
+    background-color: #819ece;
+    background-position: 0 0;
+    border: 1px solid #759DC0;
+    color: #FFFFFF;
+    padding: 5px 9px 6px;
+}
+
+#EOCILnavbar .dijitMenuItem {
+    background-color: #f6faff
+    background-position: 0 -40px;
+    background-repeat: repeat-x;
+    color: #000000;
+}
+
+
+
+#EOCILnavbar td.dijitMenuItemIconCell {
+    width: 20px;
+}
+
+#EOCILnavbar .dijitEditorIcon {
+    background-image: url("../img/icons_sprite_eocil_navbar.png");
+    background-repeat: no-repeat;
+    height: 18px;
+    text-align: center;
+    width: 18px;
+}
+#EOCILnavbar .dijitEditorIconAssets{
+    background-position: -54px center;
+}
+
+#EOCILnavbar .dijitEditorIconSummary{
+    background-position: -19px center;
+}
+
+#EOCILnavbar .dijitEditorIconAssignedUsers{
+    background-position: -36px center;
+}
+
+#EOCILnavbar .dijitEditorIconCampaign{
+    background-position: -125px center;
+}
+
+#EOCILnavbar .dijitEditorIconReport{
+    background-position: -144px center;
+}
+
+#EOCILnavbar .dijitEditorIconResponsibility{
+    background-position: -72px center;
+}
+
+#EOCILnavbar .dijitEditorIconTestQuestion{
+    background-position: -89px center;
+}
+
+#EOCILnavbar .dijitMenuItemIcon, .dijitMenuExpand {
+    background-repeat: no-repeat;
+}
+
+
+#EOCILnavbar fieldset, img {
+    border: 0 none;
+}
+
+
+
+
+/* --------------------------------------- */
+/* Begin styles for PRIMARY NAVIGATION TABS*/
+/* Note: background image URL pathing may need tweaking */
+/* --------------------------------------- */
+
+
+
+#EOCIL_primnav_tabs .dijitMenuBar {
+    	border:0px;
+	background-image: url('../img/eocil_primnav_tab_bg.jpg');
+	background-repeat: repeat-x;
+}
+
+
+
+#EOCIL_primnav_tabs .dijitMenuPassive .dijitMenuItemHover, #EOCIL_primnav_tabs .dijitMenuPassive .dijitMenuItemSelected, #EOCIL_primnav_tabs .dijitMenuItemFocused, #EOCIL_primnav_tabs .dijitFocused, #EOCIL_primnav_tabs .dijitMenuItemHoverFocused, #EOCIL_primnav_tabs .dijitHoverFocused, #EOCIL_primnav_tabs .dijitHover {
+	background-image: url("../img/menuHighlight_EOCIL.png");
+	background-position: 0 -178px;
+	background-repeat: repeat-x;
+	color:#000000;
+	border:0px;
+}
+
+
+#EOCIL_primnav_tabs .dijitMenuItemHover, #EOCIL_primnav_tabs .dijitMenuPassive .dijitMenuItemSelected, #EOCIL_primnav_tabs .dijitMenuItemFocused, #EOCIL_primnav_tabs .dijitFocused, #EOCIL_primnav_tabs .dijitMenuItemHoverFocused, #EOCIL_primnav_tabs .dijitHoverFocused, #EOCIL_primnav_tabs .dijitHover {
+ 	background-image: url("../img/menuHighlight_EOCIL.png");
+	background-position: 0 -178px;
+	background-repeat: repeat-x;
+	color:#000000;
+	border:0px;
+}
+
+
+
+#EOCIL_primnav_tabs .dijitMenuItem {
+   	background-image: url("../img/menuHighlight_EOCIL.png");
+    	background-position: 0 -40px;
+    	background-repeat: repeat-x;
+    	background-color:; 
+    	color: #FFFFFF;
+	border:0px;
+}
+
+#EOCIL_primnav_tabs .dijitMenuActive .dijitMenuItemHover, #EOCIL_primnav_tabs .dijitMenuActive .dijitMenuItemSelected {
+background-image: url("../img/menuHighlight_EOCIL.png");
+    	background-position: 0 -178px;
+    	background-repeat: repeat-x;
+	color:#000000;
+	border:0px;
+	background-color:;
+}
+
+
+
+/* ----------------------------------- */
+/* Begin styles for PAGE TITLE AREA*/
+/* Note: background image URL pathing may need tweaking */
+/* ----------------------------------- */
+
+.eocil_pagetitle_box {
+    background-image : url("../img/eocil_pagetitle_bg.png");
+    background-color : #b8dbf4;
+    background-repeat : repeat-x;
+    border : 1px solid #b6daf4;
+    border-radius : 2px 2px 2px 2px;
+}
+
+.eocil_pagetitle_box .pagetitle_text {
+    margin : 4px 4px 4px 0px;
+    padding : 4px 4px 4px 0px;
+    font-family : calibri, verdana, arial, helvetica, sans-serif;
+    font-weight : bold;
+    font-size : 18px;
+    color : #2b4f70;
+}
+
+.eocil_pagetitle_box img {
+    margin : 6px;
+}
+
+
+
+/* ----------------------------------- */
+/* Begin styles for PROJECT SUMMARY PANELS*/
+/* Note: background image URL pathing may need tweaking */
+/* ----------------------------------- */
+
+#EOCILprojpanel {
+	margin-top:10px;
+}
+
+
+#EOCILprojpanel .dojoxGrid {
+	/*margin-top:15px;*/
+}
+
+
+#EOCILprojpanel h2{
+    	font-size:1.75em;
+	font-family: Calibri,Verdana,Arial,Helvetica,sans-serif;
+	margin:.3em;
+	padding-left:38px;
+}
+
+.projpanelIconAssets{
+    background-position:0px -96px;
+}
+
+.projpanelIconDescription{
+    background-position:0px 0px;
+}
+
+.projpanelIconQuestions{
+    background-position:0px -64px;
+}
+
+.projpanelIconUsers{
+    background-position:0px -32px;
+}
+
+
+.EOCILprojpanelDescription {
+	margin:18px 14px 14px 14px;
+	/*font-family : Calibri,Verdana,Arial,Helvetica,sans-serif;*/
+	/*font-size:.75em;*/
+}
+
+#EOCILprojpanel .panel {
+	background-image:url(../img/eocil_panel_bg.jpg);
+   	background-repeat: repeat-x;
+	background-clip:content-box;
+	/*background-color:#f6faff;*/
+	/*border:1px solid #b5bcc7;*/
+}
+
+
+
+
+
+
+
+/* ----------------------------------- */
+/* Begin styles for QUICKSTART pages*/
+/* Note: background image URL pathing may need tweaking */
+/* ----------------------------------- */
+
+.qs_container {
+	margin: 0 auto;
+	padding-top:30px;
+	width: 980px;
+}
+.qs_hr {
+	clear:both;
+	margin: 0 auto 20px;
+	width: 980px;
+	border:1px solid #f7f2f2;
+}
+
+.content-container /* */ {
+	/*border:2px solid red;*/
+	width: 100%;
+}
+
+
+.leftSide {
+	/*border:1px solid black;*/
+	clear: left;
+	float: left;
+	width: 48%;
+	margin: 0 0 0 0%;
+	display: inline;
+}
+.rightSide {
+	/*border:1px solid black;*/
+	float:right;
+	width: 48%;
+	padding-left:33px;
+	margin: 0 0 0 0%;
+	display: inline;
+}
+
+.leftColumn /* required for options in left column of Quick Start page content area */ {
+	/*border:2px solid blue;*/
+	clear: left;
+	float: left;
+	padding-left:66px;
+	margin: 0 0 0 0%;
+	display: inline;
+	background-repeat:no-repeat;
+	background-position:0px 0px; /* required for Firefox */
+}
+.leftColumn, .rightColumn {
+	height:60px;
+	padding-bottom:30px;
+}
+.leftColumn h2, .rightColumn h2 {
+	margin: 0;
+	font-size:20px;
+	font-weight:bold;
+	font-family: Calibri, Tahoma, Arial, Helvetica, sans-serif;
+}
+.leftColumn h2 a, .rightColumn h2 a, .leftColumn h2 a:visited, .rightColumn h2 a:visited {
+	color:#0f549e;
+	text-decoration:none;
+}
+.leftColumn h2 a:hover, .rightColumn h2 a:hover {
+	text-decoration:underline;
+}
+.leftColumn p, .rightColumn p {
+	margin:5px 0px 5px 3px;
+}
+.rightColumn /* required to for options in right column of Quick Start page content area */ {
+	/* border:2px solid green; */
+	clear: left;
+	float: left;
+	padding-left:66px;
+	margin: 0 0 0 0%;
+	display: inline;
+	background-repeat:no-repeat;
+	background-position:0px 0px; /* required for Firefox */
+}
+.qs_GrayTxt { /* specifies font formatting for Quick Start page icon descriptions */
+	margin-top: 0px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:gray;
+	line-height:1.4em;
+}
+a.createprojlink { /* specifies font formatting for Quick Start recent menus */
+	margin-top: 0px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+}
+a.createprojlink:hover { /* specifies font formatting for Quick Start recent menus */
+	text-decoration:underline;
+}
+
+
+/* ----------------------------------------------------- */
+/* Begin styles for top and bottom SECURITY MARKING AREAS*/
+/* Note: background image URL pathing may need tweaking */
+/* ---------------------------------------------------- */
+
+.securitymarking, .securitymarking_bottom {
+    	background-color : #8A98A6; /*GRAY*/
+    	color : #FFFFFF;
+   	font-family : Calibri,Verdana,Arial,Helvetica,sans-serif;
+    	font-size : 14px;
+	padding:3px 2px 2px 6px;
+}
+
+.securitymarking_bottom {
+    	text-align : right;
+    	padding : 3px 6px 2px 2px;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+/* Begin styles for WIZARD DIALOG WINDOWS*/
+/* Note: background image URL pathing may need tweaking */
+/* ---------------------------------------------------- */
+
+.wizInstructionText {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    margin: 0 0 0 0;
+    padding-left: 66px;
+    padding-bottom:30px;
+}
+
+
+
+/*the class below overrides the claro dialog content pane plain white background and uses a gradient*/
+
+.claro .dijitDialogPaneContent {
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eef2f5'); /* for IE */
+background-image: linear-gradient(bottom, rgb(238,242,245) 25%, rgb(251,251,253) 55%);
+background-image: -o-linear-gradient(bottom, rgb(238,242,245) 25%, rgb(251,251,253) 55%);
+background-image: -moz-linear-gradient(bottom, rgb(238,242,245) 25%, rgb(251,251,253) 55%);
+background-image: -webkit-linear-gradient(bottom, rgb(238,242,245) 25%, rgb(251,251,253) 55%);
+background-image: -ms-linear-gradient(bottom, rgb(238,242,245) 25%, rgb(251,251,253) 55%);
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, rgb(238,242,245)), color-stop(0.55, rgb(251,251,253)));
+
+
+}
+
+.errorPageContainer {
+	padding:40px;
+}
+
+.accessDeniedContainer {
+	padding:40px;
+}
+
+.fieldSubtext {
+	display: block;
+	color:gray;
+}
+
+
+
+
+/* ----------------------------------------------------- */
+/* Begin styles for IMPORT SCAP and IMPORTARF CONTENT DIALOG*/
+/* These style align the Submit button with the Browse button */
+/* ---------------------------------------------------- */
+
+
+#scapFileUploadForm .dijitButton, #dialogImportArf .dijitButton {
+	margin:0px;
+}
+
+
+
+#scapFileUploadForm .dijitInline, #dialogImportArf .dijitInline {
+	vertical-align:top;
+}
