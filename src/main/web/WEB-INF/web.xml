@@ -19,7 +19,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
-        <url-pattern>*.form</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
     <session-config>
@@ -28,7 +28,7 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>views/login.jsp</welcome-file>
     </welcome-file-list>
 
     <!-- Serves static resource content from .jar files such as spring-js.jar -->

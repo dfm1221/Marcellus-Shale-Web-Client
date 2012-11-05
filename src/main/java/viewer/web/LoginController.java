@@ -22,6 +22,9 @@ public class LoginController extends BaseController {
     @RequestMapping(value={ "/", "/login" })
     public String goToLoginPage(Model model) {
 
+
+        System.out.println("We are connected!!!!");
+
         if (appSecurityContext.isAuthenticated()) {
             return "redirect:/home";
         }

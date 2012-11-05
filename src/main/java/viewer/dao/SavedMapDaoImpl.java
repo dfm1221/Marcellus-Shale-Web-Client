@@ -15,12 +15,10 @@ import java.util.Collection;
 @Repository
 public class SavedMapDaoImpl extends JpaSingleEntityDao<SavedMap> implements SavedMapDao {
 
-    @Override
     public SavedMap read(Long id) {
         return null;
     }
 
-    @Override
     public Collection<SavedMap> readAll(Collection<? extends BasePersistentDto> dtoCollection) {
         return null;
     }

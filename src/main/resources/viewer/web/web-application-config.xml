@@ -14,11 +14,10 @@
 	<!-- Using annotations to configure spring context -->
 	<context:annotation-config/>
 
-	<!-- Scans for application @Components to deploy -->
-	<context:component-scan base-package="viewer" />
+    <context:component-scan base-package="viewer" />
 
-	
-	<!-- Imports the configurations of the different infrastructure systems of the application -->
-	<import resource="../dao/data-access-config.xml" />
+    <!-- Imports the configurations of the different infrastructure systems of the application -->
+    <import resource="../dao/data-access-config.xml" />
+    <import resource="../security/security-config.xml" />
     <import resource="../service/service-config.xml" />
 </beans>

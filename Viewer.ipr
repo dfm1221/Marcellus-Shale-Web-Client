@@ -21,7 +21,6 @@
             <element id="library" level="project" name="hibernate-jpamodelgen-1.0.0-20091027.191706-1" />
             <element id="library" level="project" name="hibernate-core-4.1.1.Final" />
             <element id="library" level="project" name="dozer-5.3.2" />
-            <element id="library" level="project" name="commons-lang3-3.1" />
             <element id="file-copy" path="$APPLICATION_HOME_DIR$/lib/annotations.jar" />
             <element id="library" level="project" name="spring-js-2.3.1.RELEASE" />
             <element id="library" level="project" name="jstl-1.2" />
@@ -30,6 +29,14 @@
             <element id="library" level="project" name="spring-web" />
             <element id="library" level="project" name="spring-security-web-3.1.1.RELEASE" />
             <element id="library" level="project" name="hibernate-jpamodelgen-1.0.0-20091027.191706-11" />
+            <element id="library" level="project" name="tiles-template-2.2.2" />
+            <element id="library" level="project" name="slf4j-api-1.5.11" />
+            <element id="library" level="project" name="log4j-1.2.14" />
+            <element id="library" level="project" name="slf4j-log4j12-1.5.11" />
+            <element id="library" level="project" name="commons-lang-2.6" />
+            <element id="library" level="project" name="commons-digester-2.0" />
+            <element id="library" level="project" name="commons-beanutils-1.8.3" />
+            <element id="library" level="project" name="spring-security-taglibs-3.1.1.RELEASE" />
           </element>
         </element>
       </root>
@@ -64,9 +71,23 @@
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-dozer-mappings.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/login/login_bodybg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/resources/img/login/login_form_bg.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/resources/styles/login.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/layouts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_banner_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_header_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_pagetitle_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_pagetitle_bg.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_panel_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/eocil_primnav_tab_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/help2.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/icons_sprite_eocil_navbar.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/login/login_bodybg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/login/login_form_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/menuHighlight_EOCIL.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/img/user1.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/styles/core.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/resources/styles/login.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/tiles/topMenu.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/views.xml" charset="UTF-8" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
@@ -212,6 +233,13 @@
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
+    <library name="commons-beanutils-1.8.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="commons-collections-3.2.1">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.2.1.jar!/" />
@@ -219,9 +247,16 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="commons-lang3-3.1">
+    <library name="commons-digester-2.0">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/commons-digester-2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="commons-lang-2.6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.6.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -261,13 +296,6 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="JPA 1.0-JPA 1.0">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/javaee.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="JPA 2.0-JPA 2.0">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
@@ -278,6 +306,27 @@
     <library name="jstl-1.2">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/jstl-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="log4j-1.2.14">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.14.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="slf4j-api-1.5.11">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.5.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="slf4j-log4j12-1.5.11">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/slf4j-log4j12-1.5.11.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -363,6 +412,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="spring-security-taglibs-3.1.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-taglibs-3.1.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="spring-security-web-3.1.1.RELEASE">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/spring-security-web-3.1.1.RELEASE.jar!/" />
@@ -373,6 +429,17 @@
     <library name="spring-web">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/spring-web.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="tiles-template-2.2.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/tiles-template-2.2.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/tiles-servlet-2.2.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/tiles-jsp-2.2.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/tiles-core-2.2.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/tiles-api-2.2.2.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

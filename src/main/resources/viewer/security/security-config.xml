@@ -54,19 +54,8 @@
 		<intercept-url pattern="/authFailure.*" access="permitAll" />
 		<intercept-url pattern="/logout" access="permitAll" />
 		
-		<!-- Project assignee pages -->
-		<intercept-url pattern="/project/create" access="hasRole('ROLE_PROJECT_CREATOR')" />
-		<intercept-url pattern="/project/[0-9]+/campaigns/create" access="hasRole('ROLE_CAMPAIGN_CREATOR')" />
-		<intercept-url pattern="/project.*" access="hasRole('ROLE_PROJECT_ASSIGNEE')" />
-
-		<!-- Questionnaire specific pages -->
-		<intercept-url pattern="/questionnaires/download/.*" access="hasRole('ROLE_QUESTIONNAIRE_ASSIGNEE')" />
-		<intercept-url pattern="/questionnaires.*" access="hasRole('ROLE_QUESTIONNAIRE_ASSIGNEE')" />
-		<intercept-url pattern="/interrogator.*" access="hasRole('ROLE_QUESTIONNAIRE_ASSIGNEE')" />
-		<intercept-url pattern="/validateUser" access="hasRole('ROLE_QUESTIONNAIRE_ASSIGNEE')" />
-		
 		<!-- Admin pages -->
-		<intercept-url pattern="/administration.*" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/api/index.*" access="hasRole('ROLE_ADMIN')" />
 		
 		<!-- Home page (will be different depending on the user) -->
 		<intercept-url pattern="/home" access="isAuthenticated()" />
