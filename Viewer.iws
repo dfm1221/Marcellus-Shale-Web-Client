@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="5efedf9a-6cbd-41a5-affa-ef3960a3aa75" name="Default" comment="Client and Server now wired up">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/eocil_banner_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/eocil_header_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/eocil_pagetitle_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/eocil_pagetitle_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/eocil_panel_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/eocil_primnav_tab_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/help2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/icons_sprite_eocil_navbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/menuHighlight_EOCIL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/img/user1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/styles/core.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.ipr" afterPath="$PROJECT_DIR$/Viewer.ipr" />
+    <list default="true" readonly="true" id="5efedf9a-6cbd-41a5-affa-ef3960a3aa75" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.iws" afterPath="$PROJECT_DIR$/Viewer.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Viewer.properties" afterPath="$PROJECT_DIR$/src/main/resources/Viewer.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/styles/login.css" afterPath="$PROJECT_DIR$/src/main/web/resources/styles/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewer/dto/BasePersistentDto.java" afterPath="$PROJECT_DIR$/src/main/java/viewer/dto/BasePersistentDto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewer/model/OBJ.java" afterPath="$PROJECT_DIR$/src/main/java/viewer/model/OBJ.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewer/security/UserRoles.java" afterPath="$PROJECT_DIR$/src/main/java/viewer/security/UserRoles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewer/security/UserTypes.java" afterPath="$PROJECT_DIR$/src/main/java/viewer/security/UserTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java" />
     </list>
     <list id="94f03b00-4847-4fef-b040-abf246513a7b" name="Rejected commit: Default" comment="Initial Commit of src, persistence.xml, META-INF, and web" />
     <list id="8eb1287a-9660-40c9-8d40-51395cd8442e" name="ignored" comment="" />
@@ -77,103 +67,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="50" selection-start="908" selection-end="908" vertical-scroll-proportion="-17.85">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/web/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="74" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="66" selection-start="742" selection-end="742" vertical-scroll-proportion="-10.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewer.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Viewer.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="110" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/web/resources/styles/login.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="123" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.68247426">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/layouts/main-layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_template.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/layouts/main_template.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="88" selection-start="1373" selection-end="1373" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/resources/styles/core.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="508" column="0" selection-start="10439" selection-end="10439" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="79" selection-start="991" selection-end="991" vertical-scroll-proportion="-1.3846154">
+            <state line="33" column="114" selection-start="1428" selection-end="1428" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topMenu.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/tiles/topMenu.jsp">
+      <file leaf-file-name="UsernameLookupUserDetailsServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="379" selection-end="723" vertical-scroll-proportion="-12.423077">
+            <state line="2" column="30" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OBJ.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/model/OBJ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="23" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTypes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/UserTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="30" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseJpaDaoTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/viewer/dao/BaseJpaDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="65" selection-start="327" selection-end="327" vertical-scroll-proportion="0.36666667">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRoles.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/UserRoles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePersistentDto.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/dto/BasePersistentDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="30" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,11 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/viewer/dao/JpaBaseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/model/User_.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/viewer/dao/data-access-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/dao/SavedMapDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/viewer/service/service-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/views.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml" />
@@ -208,6 +160,11 @@
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Viewer.properties" />
         <option value="$PROJECT_DIR$/src/main/web/resources/styles/login.css" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/model/OBJ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/security/UserTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/security/UserRoles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/dto/BasePersistentDto.java" />
       </list>
     </option>
   </component>
@@ -834,62 +791,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-config.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="56" selection-start="561" selection-end="561" vertical-scroll-proportion="0.33265308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/dao/JpaBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.31960785">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="106" selection-start="2988" selection-end="2988" vertical-scroll-proportion="-13.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.7632653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/viewer/web/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="74" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
@@ -899,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/tiles/topMenu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="379" selection-end="723" vertical-scroll-proportion="-12.423077">
+        <state line="19" column="10" selection-start="379" selection-end="723" vertical-scroll-proportion="0.6857749">
           <folding />
         </state>
       </provider>
@@ -913,21 +814,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/layouts/main_template.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="88" selection-start="1373" selection-end="1373" vertical-scroll-proportion="-13.730769">
+        <state line="21" column="88" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.7579618">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/styles/core.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="508" column="0" selection-start="10439" selection-end="10439" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="79" selection-start="991" selection-end="991" vertical-scroll-proportion="-1.3846154">
+        <state line="508" column="0" selection-start="10439" selection-end="10439" vertical-scroll-proportion="7.2173038">
           <folding />
         </state>
       </provider>
@@ -967,8 +861,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/styles/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="123" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.68247426">
+        <state line="124" column="50" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.57731956">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="114" selection-start="1428" selection-end="1428" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/model/OBJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="23" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/UserRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/dto/BasePersistentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/UserTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/viewer/dao/BaseJpaDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="65" selection-start="327" selection-end="327" vertical-scroll-proportion="0.36666667">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
