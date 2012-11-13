@@ -2,123 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="5efedf9a-6cbd-41a5-affa-ef3960a3aa75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/AbstractDaoException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/AbstractServiceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/InvalidDaoInputException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/InvalidServiceInputException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/Slf4jMDCFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/ValidationAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/viewer/ValidationMessages.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/viewer/validator-aspect-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/accessDenied.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/resources/js/viewer/main.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\ElevationsSOE.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/ElevationsSOE.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\Pane.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/Pane.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\ar\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/ar/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\de\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/de/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\en\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/en/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\es\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/es/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\fr\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/fr/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\it\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/it/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\ja\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/ja/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\ko\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/ko/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\nb\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/nb/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\nl\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/nl/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\no\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/no/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\pl\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/pl/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\pt-BR\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/pt-BR/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\ro\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/ro/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\ru\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/ru/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\sv\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/sv/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\nls\zh-CN\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/nls/zh-CN/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\apl\ElevationsChart\templates\Pane.html" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/apl/ElevationsChart/templates/Pane.html" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\config.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/config.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\css\blue.css" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/css/blue.css" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\css\gray.css" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/css/gray.css" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\css\green.css" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/css/green.css" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\css\ie.css" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/css/ie.css" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\css\layout.css" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/css/layout.css" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\css\orange.css" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/css/orange.css" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\css\purple.css" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/css/purple.css" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\documentation\EditDescription.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/documentation/EditDescription.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\documentation\copymapid.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/documentation/copymapid.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\documentation\findmapid.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/documentation/findmapid.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\documentation\install1.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/documentation/install1.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\documentation\install3.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/documentation/install3.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\documentation\mapprops.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/documentation/mapprops.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\Basemap16.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/Basemap16.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\Legend16.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/Legend16.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\LinkTo16.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/LinkTo16.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\Measure_Area16.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/Measure_Area16.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\blank.gif" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/blank.gif" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\blue\body_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/blue/body_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\blue\popup.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/blue/popup.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\blue\sidebar_header_active_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/blue/sidebar_header_active_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\blue\sidebar_header_inactive_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/blue/sidebar_header_inactive_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\blue\toolbar_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/blue/toolbar_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\bookmarks.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/bookmarks.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\buttonArrows.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/buttonArrows.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\close.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/close.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\closepanel.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/closepanel.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\contents.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/contents.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\details.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/details.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\edit_20x20.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/edit_20x20.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\email.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/email.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\facebook.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/facebook.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\genericprint.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/genericprint.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\gray\body_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/gray/body_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\gray\sidebar_header_active_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/gray/sidebar_header_active_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\gray\sidebar_header_inactive_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/gray/sidebar_header_inactive_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\gray\toolbar_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/gray/toolbar_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\green\body_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/green/body_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\green\popup.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/green/popup.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\green\sidebar_header_active_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/green/sidebar_header_active_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\green\sidebar_header_inactive_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/green/sidebar_header_inactive_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\green\toolbar_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/green/toolbar_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\loading_black.gif" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/loading_black.gif" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\logo-pod.jpg" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/logo-pod.jpg" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\measureArrows.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/measureArrows.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\orange\body_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/orange/body_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\orange\popup.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/orange/popup.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\orange\sidebar_header_active_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/orange/sidebar_header_active_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\orange\sidebar_header_inactive_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/orange/sidebar_header_inactive_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\orange\toolbar_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/orange/toolbar_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\purple\body_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/purple/body_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\purple\popup.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/purple/popup.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\purple\sidebar_header_active_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/purple/sidebar_header_active_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\purple\sidebar_header_inactive_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/purple/sidebar_header_inactive_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\purple\toolbar_bg.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/purple/toolbar_bg.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\searchbar.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/searchbar.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\timer.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/timer.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\transparent.gif" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/transparent.gif" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\images\twittersm.png" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/images/twittersm.png" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\javascript\custommenu.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/javascript/custommenu.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\javascript\layout.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/javascript/layout.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\mapView.html" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/mapView.html" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\ar\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/ar/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\de\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/de/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\en-us\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/en-us/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\en\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/en/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\es\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/es/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\fr\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/fr/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\it\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/it/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\ja\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/ja/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\ko\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/ko/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\nb\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/nb/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\nl\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/nl/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\pl\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/pl/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\pt-BR\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/pt-BR/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\ro\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/ro/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\ru\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/ru/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\sv\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/sv/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\nls\zh-CN\template.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/nls/zh-CN/template.js" />
-      <change type="MOVED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views\api\readme.html" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/readme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.iml" afterPath="$PROJECT_DIR$/Viewer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.ipr" afterPath="$PROJECT_DIR$/Viewer.ipr" />
+      <change type="DELETED" beforePath="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\applicationContext.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.iws" afterPath="$PROJECT_DIR$/Viewer.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
@@ -181,31 +65,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="94" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.5202822">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml">
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
           <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="8" selection-start="1662" selection-end="1662" vertical-scroll-proportion="3.95">
+            <state line="40" column="54" selection-start="1753" selection-end="1753" vertical-scroll-proportion="-25.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web-application-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="8" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-18.7">
               <folding />
             </state>
           </provider>
@@ -214,64 +92,37 @@
       <file leaf-file-name="UsernameLookupUserDetailsServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+            <state line="10" column="9" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="111" selection-start="1548" selection-end="1548" vertical-scroll-proportion="-5.230769">
+            <state line="39" column="104" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-28.05">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/web/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-18.961538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/web/NavigationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="35" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
+      <file leaf-file-name="security-config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml">
           <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="1527" selection-end="1527" vertical-scroll-proportion="-24.1">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logging.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/classes/logging.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+            <state line="44" column="105" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.62052876">
               <folding />
             </state>
           </provider>
@@ -290,20 +141,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/viewer/security/UserRoles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/dto/BasePersistentDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/web/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/AbstractDaoException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/AbstractServiceException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/ValidationAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/viewer/ValidationMessages.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/viewer/validator-aspect-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/classes/logging.properties" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/viewer/web/NavigationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/viewer/SLF.java" />
         <option value="$PROJECT_DIR$/src/main/java/viewer/Slf4jMDCFilter.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/web/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/hello.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/security/authentication/PreAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/security/constants/PreAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/security/authentication/NavigatorPreAuthenticatedProcessingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/security/constants/PreAuthenticationConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/viewer/security/authentication.properties" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml" />
       </list>
@@ -494,11 +345,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="viewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,7 +375,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -528,7 +383,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Viewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSWC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Viewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSWC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -879,19 +782,19 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.49789694" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.4957939" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.49789694" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32225913" sideWeight="0.063617244" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23809524" sideWeight="0.48948476" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49058694" sideWeight="0.5068349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2303433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3831672" sideWeight="0.55783385" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3831672" sideWeight="0.54942167" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17770767" sideWeight="0.6777409" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32225913" sideWeight="0.9327024" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17770767" sideWeight="0.7619048" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32225913" sideWeight="0.9253417" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -936,7 +839,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="library resolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Issues with spring security and login controller. Still working on it." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -955,6 +858,7 @@
     <MESSAGE value="Committed Dojo and Digit JS libraries" />
     <MESSAGE value="Client and Server now wired up" />
     <MESSAGE value="library resolution" />
+    <MESSAGE value="Issues with spring security and login controller. Still working on it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -964,47 +868,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-config.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="61" selection-start="899" selection-end="899" vertical-scroll-proportion="0.74041814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/validator-aspect-config.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="59" selection-start="990" selection-end="990" vertical-scroll-proportion="-16.15" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/viewer/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/accessDenied.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1527" selection-end="1527" vertical-scroll-proportion="-24.1">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/viewer/web/NavigationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="35" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
@@ -1045,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-web.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.035416666">
@@ -1059,12 +915,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-security-web-3.1.1.RELEASE.jar!/org/springframework/security/web/authentication/preauth/AbstractPreAuthenticatedProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="202" selection-end="202" vertical-scroll-proportion="0.14345992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="1662" selection-end="1662" vertical-scroll-proportion="3.95">
+        <state line="40" column="54" selection-start="1753" selection-end="1753" vertical-scroll-proportion="-25.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-18.7">
           <folding />
         </state>
       </provider>
@@ -1077,12 +957,22 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="94" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.5202822">
+        <state line="39" column="104" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-28.05">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="105" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.62052876">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
