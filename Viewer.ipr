@@ -37,6 +37,10 @@
             <element id="library" level="project" name="commons-digester-2.0" />
             <element id="library" level="project" name="commons-beanutils-1.8.3" />
             <element id="library" level="project" name="spring-security-taglibs-3.1.1.RELEASE" />
+            <element id="library" level="project" name="validation-api-1.0.0.GA" />
+            <element id="library" level="project" name="hibernate-validator-4.2.0.Final" />
+            <element id="library" level="project" name="aspectjrt-1.6.12" />
+            <element id="library" level="project" name="spring-security-config-3.1.1.RELEASE" />
           </element>
         </element>
       </root>
@@ -63,15 +67,25 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/AbstractDaoException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/AbstractServiceException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/InvalidDaoInputException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/InvalidServiceInputException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/viewer/ValidationAspect.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/AbstractUserDetailsService.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/viewer/web/BaseController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/viewer/ValidationMessages.properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/dao/data-access-config.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/service/service-dozer-mappings.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/viewer/validator-aspect-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/layouts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/security-config.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/accessDenied.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/error.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/tiles/topMenu.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/views.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/resources/img/eocil_banner_bg.jpg" charset="UTF-8" />
@@ -86,6 +100,7 @@
     <file url="file://$PROJECT_DIR$/src/main/web/resources/img/login/login_form_bg.jpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/resources/img/menuHighlight_EOCIL.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/resources/img/user1.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/resources/js/viewer/main.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/resources/styles/core.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/resources/styles/login.css" charset="UTF-8" />
   </component>
@@ -233,6 +248,13 @@
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
+    <library name="aspectjrt-1.6.12">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/aspectjrt-1.6.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="commons-beanutils-1.8.3">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.3.jar!/" />
@@ -296,6 +318,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="hibernate-validator-4.2.0.Final">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-4.2.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="JPA 2.0-JPA 2.0">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
@@ -313,6 +342,13 @@
     <library name="log4j-1.2.14">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.14.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="servlet-api-2.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/servlet-api-2.5.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -405,6 +441,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="spring-security-config-3.1.1.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/spring-security-config-3.1.1.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="spring-security-core-3.1.1.RELEASE">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/spring-security-core-3.1.1.RELEASE.jar!/" />
@@ -440,6 +483,13 @@
         <root url="jar://$PROJECT_DIR$/lib/tiles-jsp-2.2.2.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/tiles-core-2.2.2.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/tiles-api-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="validation-api-1.0.0.GA">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/validation-api-1.0.0.GA.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

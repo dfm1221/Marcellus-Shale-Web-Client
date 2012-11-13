@@ -15,53 +15,32 @@
 	<http pattern="/resources/img/**" security="none" />
 	<http pattern="/sjs/**" security="none" />
 
-	<!-- Use unanimous based decision, and add custom voter to determine access to domain objects -->
-	<b:bean id="accessDecisionManager" class="org.springframework.security.access.vote.UnanimousBased ">
-		<!--<b:property name="decisionVoters">-->
-			<!--<b:list>-->
-				<!--<b:bean  class="org.springframework.security.web.access.expression.WebExpressionVoter" />-->
-                <!--<b:bean class="com.telos.eocil.navigator.security.access.vote.AssignedProjectVoter" />-->
-			<!--</b:list>-->
-		<!--</b:property>-->
-	</b:bean>
+
 	<b:bean id="http403EntryPoint" class="org.springframework.security.web.authentication.Http403ForbiddenEntryPoint" />
 	
-	<!--&lt;!&ndash; Web Services &ndash;&gt;-->
-	<!--<http pattern="/ws/**" create-session="stateless" entry-point-ref="http403EntryPoint">-->
-		<!--<http-basic />-->
-		<!---->
-		<!--<intercept-url pattern="/ws/questionnaires/service/**" access="ROLE_QUESTIONNAIRE_ASSIGNEE" />-->
-	<!--</http>-->
-	
 	<!-- UI -->
-	<http auto-config="true" use-expressions="true" access-decision-manager-ref="accessDecisionManager" path-type="regex">
-
-		<!-- Use the whole certificate subject -->
-		<x509 subject-principal-regex="${security.subject.principal.regex}" user-service-ref="dnUserDetailsService"/>
+	<http auto-config="true" >
 		
 		<!-- Issue a new JSESSIONID upon successful login -->
 		<session-management session-fixation-protection="newSession">
 			<concurrency-control max-sessions="1" error-if-maximum-exceeded="false" expired-url="/authFailure/timeout"/>
 		</session-management>
 
-		<access-denied-handler error-page="/authFailure/accessDenied"/>
+			<access-denied-handler error-page="/authFailure/accessDenied"/>
 		<form-login login-page="/login" default-target-url="/home" authentication-failure-url="/authFailure/badCredentails" />
 		<logout logout-success-url="/logout" delete-cookies="JSESSIONID" />
-	
-		<!-- Login/logout pages do not require credentials -->
+
+		 <!--Login/logout pages do not require credentials -->
 		<intercept-url pattern="/" access="permitAll" />
 		<intercept-url pattern="/login" access="permitAll" />
 		<intercept-url pattern="/authFailure.*" access="permitAll" />
 		<intercept-url pattern="/logout" access="permitAll" />
-		
+		<!---->
 		<!-- Admin pages -->
 		<intercept-url pattern="/api/index.*" access="hasRole('ROLE_ADMIN')" />
-		
+
 		<!-- Home page (will be different depending on the user) -->
 		<intercept-url pattern="/home" access="isAuthenticated()" />
-		
-		<!-- Help Page -->
-  		<intercept-url  pattern="/PageHelp/.*"   access="isAuthenticated()"  /> 
 
 		<!-- Misc. -->
 		<intercept-url pattern="/resources/js/eocil/.*" access="isAuthenticated()" />
@@ -69,7 +48,7 @@
 		<intercept-url pattern=".*" access="denyAll" />
 	</http>
 
-	<authentication-manager>
+    <authentication-manager>
 		<authentication-provider user-service-ref="usernameUserDetailsService">
 			<password-encoder hash="sha">
 				<salt-source user-property="username" />
@@ -81,7 +60,6 @@
 			</user-service>
 		</authentication-provider>
 	</authentication-manager>
-
 	<b:bean id="passwordEncoder" class="org.springframework.security.authentication.encoding.ShaPasswordEncoder" />
 
 	

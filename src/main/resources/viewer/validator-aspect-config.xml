@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+
+                           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<aop:aspectj-autoproxy />
+
+	<bean id="validationAspect" class="viewer.ValidationAspect" />
+	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+
+	<aop:config>
+
+		<aop:aspect id="validation" ref="validationAspect">
+		
+			<aop:pointcut id="businessService" expression="execution(public * viewer.service.*.*(..))" />
+			<aop:around pointcut-ref="businessService" method="validateServiceMethodParams" />
+			
+			<aop:pointcut id="daoMethod" expression="execution(public * viewer.dao.*.*(..))" />
+			<aop:around pointcut-ref="businessService" method="validateDaoMethodParams" />
+		</aop:aspect>
+	</aop:config>
+
+</beans>
