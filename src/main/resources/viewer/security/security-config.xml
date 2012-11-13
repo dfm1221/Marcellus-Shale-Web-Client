@@ -19,14 +19,14 @@
 	<b:bean id="http403EntryPoint" class="org.springframework.security.web.authentication.Http403ForbiddenEntryPoint" />
 
 	<!-- UI -->
-	<http auto-config="true" >
+	<http auto-config="true" use-expressions="true">
 
 		<!-- Issue a new JSESSIONID upon successful login -->
 		<session-management session-fixation-protection="newSession">
 			<concurrency-control max-sessions="1" error-if-maximum-exceeded="false" expired-url="/authFailure/timeout"/>
 		</session-management>
 
-			<access-denied-handler error-page="/authFailure/accessDenied"/>
+		<access-denied-handler error-page="/authFailure/accessDenied"/>
 		<form-login login-page="/login" default-target-url="/home" authentication-failure-url="/authFailure/badCredentails" />
 		<logout logout-success-url="/logout" delete-cookies="JSESSIONID" />
 
