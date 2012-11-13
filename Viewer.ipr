@@ -2,6 +2,16 @@
 <project version="4">
   <component name="AntConfiguration">
     <defaultAnt bundledAnt="true" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <additionalClassPath>
+        <entry dir="file://$PROJECT_DIR$/lib" />
+      </additionalClassPath>
+      <antReference projectDefault="true" />
+      <customJdkName value="" />
+      <maximumHeapSize value="128" />
+      <maximumStackSize value="2" />
+      <properties />
+    </buildFile>
   </component>
   <component name="ArtifactManager">
     <artifact type="exploded-war" name="Viewer:war exploded">
@@ -28,7 +38,6 @@
             <element id="library" level="project" name="commons-collections-3.2.1" />
             <element id="library" level="project" name="spring-web" />
             <element id="library" level="project" name="spring-security-web-3.1.1.RELEASE" />
-            <element id="library" level="project" name="hibernate-jpamodelgen-1.0.0-20091027.191706-11" />
             <element id="library" level="project" name="tiles-template-2.2.2" />
             <element id="library" level="project" name="slf4j-api-1.5.11" />
             <element id="library" level="project" name="log4j-1.2.14" />
@@ -41,6 +50,14 @@
             <element id="library" level="project" name="hibernate-validator-4.2.0.Final" />
             <element id="library" level="project" name="aspectjrt-1.6.12" />
             <element id="library" level="project" name="spring-security-config-3.1.1.RELEASE" />
+            <element id="library" level="project" name="hibernate-jpa-2.0-api-1.0.1.Final" />
+            <element id="library" level="project" name="hibernate-entitymanager-4.1.0.Final" />
+            <element id="library" level="project" name="jtds-1.3.0" />
+            <element id="library" level="project" name="jboss-logging-3.1.0.CR2" />
+            <element id="library" level="project" name="jboss-transaction-api_1.1_spec-1.0.0.Final" />
+            <element id="library" level="project" name="dom4j-1.6.1" />
+            <element id="library" level="project" name="javassist-3.15.0-GA" />
+            <element id="library" level="project" name="hibernate-tools" />
           </element>
         </element>
       </root>
@@ -82,7 +99,6 @@
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/validator-aspect-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/layouts" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/security-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/accessDenied.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/error.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" charset="UTF-8" />
@@ -283,6 +299,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="dom4j-1.6.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="dozer-5.3.2">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/dozer-5.3.2.jar!/" />
@@ -304,6 +327,20 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="hibernate-entitymanager-4.1.0.Final">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/hibernate-entitymanager-4.1.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="hibernate-jpa-2.0-api-1.0.1.Final">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="hibernate-jpamodelgen-1.0.0-20091027.191706-1">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/hibernate-jpamodelgen-1.0.0-20091027.191706-1.jar!/" />
@@ -311,9 +348,9 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="hibernate-jpamodelgen-1.0.0-20091027.191706-11">
+    <library name="hibernate-tools">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/hibernate-jpamodelgen-1.0.0-20091027.191706-1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/hibernate-tools.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -321,6 +358,27 @@
     <library name="hibernate-validator-4.2.0.Final">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-4.2.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="javassist-3.15.0-GA">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/javassist-3.15.0-GA.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="jboss-logging-3.1.0.CR2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/jboss-logging-3.1.0.CR2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="jboss-transaction-api_1.1_spec-1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -335,6 +393,13 @@
     <library name="jstl-1.2">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/jstl-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="jtds-1.3.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/jtds-1.2.5.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
