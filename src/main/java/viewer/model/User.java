@@ -25,7 +25,7 @@ public class User extends OBJ{
     @Column(unique = false, nullable = false, length = 64)
     private String lastName;
 
-    @Type(type = "hibernate.Password")
+    @Type(type = "viewer.util.Password")
     private Password password;
 
     @Column(unique = true, nullable = false, length = 64)

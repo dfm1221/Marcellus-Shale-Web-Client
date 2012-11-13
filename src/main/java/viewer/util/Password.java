@@ -3,7 +3,6 @@ package viewer.util;
 import java.io.Serializable;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Justin Ford
  * Date: 9/21/12
  * Time: 11:03 AM

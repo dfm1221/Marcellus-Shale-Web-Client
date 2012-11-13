@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="MSWC" default="generate.jpa.metamodel" basedir=".">
+
+    <path id="Viewer.module.classpath" location="${basedir}"  />
+    <path id="Viewer.runtime.module.classpath" >
+        <pathelement location="${basedir}\out\production\Viewer"/>
+    </path>
+
+
+
+
+    <!-- Environment Variables -->
+    <property environment="env"/>
+    <property name="jdk.home.1.6" value="${env.JAVA_HOME}"/>
+    <property name="path.variable.class" value="${env.windir}"/>
+    <property name="path.variable.junit_home" value="{env.JUNIT_HOME}"/>
+
+    <!-- Begin integrate md.xml via ANT build inheritance -->
+    <property file="${basedir}/src/main/resources/Viewer.properties"/>
+
+    <!-- Global properties for this build -->
+    <property name="proj.root.dir" value="${basedir}"/>
+    <property name="project.src.root" location="${basedir}/src/main"/>
+    <property name="build.dir" value="${proj.root.dir}/build"/>
+    <property name="lib.dir" value="${proj.root.dir}/lib"/>
+    <property name="compiler.dir" value="${build.dir}/classes"/>
+    <property name="resources.dir" value="${proj.root.dir}/src/main/resources"/>
+    <property name="src.java.dir" value="${proj.root.dir}/src/main/java"/>
+    <property name="junit.test.results" value="${basedir}/build/test_results"/>
+
+    <path id="util" location="${project.src.root}\java\viewer\util"/>
+
+    <!-- ================ -->
+    <!-- Task Definitions -->
+    <!-- ================ -->
+    <taskdef name="hibernatetool" classname="org.hibernate.tool.ant.HibernateToolTask"
+             classpathref="Viewer.module.classpath"/>
+
+
+    <!-- ====================== -->
+<!-- Refresh JPA meta model -->
+<!-- ====================== -->
+<target name="generate.jpa.metamodel">
+    <javac srcdir="${project.src.root}/java/viewer/model"
+           destdir="${project.src.root}/generated"
+           failonerror="false"
+           fork="true"
+           classpathref="Viewer.runtime.module.classpath">
+        <compilerarg value="-proc:only"/>
+    </javac>
+
+    <javac srcdir="${project.src.root}/java/viewer/model"
+           destdir="${project.src.root}/generated"
+           failonerror="false"
+           fork="true"
+           classpathref="Viewer.runtime.module.classpath">
+        <compilerarg value="-proc:only"/>
+    </javac>
+</target>
+
+        <!-- ==================== -->
+        <!-- Database Schema Drop -->
+        <!-- ==================== -->
+<target name="schema.drop">
+<java classname="com.xacta.common.application.WebApp" fork="true" failonerror="true">
+    <classpath>
+        <path refid="Viewer.runtime.module.classpath"/>
+    </classpath>
+    <arg value="dropSchema"/>
+</java>
+</target>
+
+        <!-- ====================== -->
+        <!-- Database Schema Create -->
+        <!-- ====================== -->
+<target name="schema.create" depends="schema.drop">
+<echo message="persistence unit: ${persistence.unit.name}"/>
+<hibernatetool
+
+        destdir="${build.dir}">
+    <classpath path="${md.output.dir}"/>
+    <jpaconfiguration persistenceunit="${persistence.unit.name}"/>
+    <hbm2ddl export="true" drop="false" create="true" delimiter=";" format="true"/>
+</hibernatetool>
+</target>
+
+</project>
