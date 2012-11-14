@@ -10,7 +10,7 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>EOCIL Navigator</title>
+<title>Marcellus Shale Web Client</title>
 	<link type="text/css" rel="stylesheet" href="<c:url value="/sjs/dijit/themes/claro/claro.css" />" />
 	<link type="text/css" rel="stylesheet" href="<c:url value="/resources/js/dojox/grid/resources/claroGrid.css" />" />
 	<link type="text/css" rel="stylesheet" href="<c:url value="/resources/js/dojox/form/resources/FileInput.css" />" />
@@ -33,7 +33,7 @@
 		 packages: [
 			{
 			  name: "ext",
-			  location: "../eocil/ext"
+			  location: "../viewer/ext"
 			}
 		]
 		};
@@ -41,7 +41,7 @@
 	<script type="text/javascript" src="<c:url value="/resources/js/dojo/dojo.js"/>"> </script>
 	<script type="text/javascript" src="<c:url value="/sjs/spring/Spring.js" />"> </script>
 	<script type="text/javascript" src="<c:url value="/sjs/spring/Spring-Dojo.js" />"> </script>
-	<script type="text/javascript" src="<c:url value="/resources/js/eocil/main.js"/>"> </script>
+	<script type="text/javascript" src="<c:url value="/resources/js/viewer/main.js"/>"> </script>
 
 	<script type="text/javascript">
 	 

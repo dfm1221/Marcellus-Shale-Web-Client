@@ -17,12 +17,6 @@
             <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="create"/>
 
-            <!-- Hibernate Search Properties -->
-            <property name="hibernate.search.default.directory_provider"
-                      value="org.hibernate.search.store.FSDirectoryProvider"/>
-            <property name="hibernate.search.default.indexBase" value="./iwt/search/indexes"/>
-            <property name="hibernate.search.default.optimizer.operation_limit.max" value="1000"/>
-            <property name="hibernate.search.default.optimizer.transaction_limit.max" value="100"/>
 
 
             <property name="hibernate.c3p0.min_size" value="5"/>

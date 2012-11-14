@@ -43,7 +43,6 @@
 		<intercept-url pattern="/home" access="isAuthenticated()" />
 
 		<!-- Misc. -->
-		<intercept-url pattern="/resources/js/eocil/.*" access="isAuthenticated()" />
 		<intercept-url pattern="/error" access="permitAll" />
 		<intercept-url pattern=".*" access="denyAll" />
 	</http>

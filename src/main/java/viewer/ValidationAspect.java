@@ -21,9 +21,9 @@ import java.util.Set;
  * To validate fields/methods within POJOs (e.g. DTOs), annotate with {@link javax.validation.Valid} and
  * specify the validation annotations in the POJOs classes.
  * 
- * @author Wendy Schmitz 11913
+ *
  * 
- *         Apr 18, 2012
+ *         October 18, 2012
  */
 //
 public class ValidationAspect {
@@ -31,8 +31,8 @@ public class ValidationAspect {
 	@Autowired
 	private Validator validator;
 
-	// Match any public methods in com.telos.eocil.navigator.service.* package
-//	@Around("execution(public * com.telos.eocil.navigator.service.*.*(..))")
+	// Match any public methods in viewer.service.* package
+//	@Around("execution(public * viewer.service.*.*(..))")
 	public Object validateServiceMethodParams(ProceedingJoinPoint pjp) throws Throwable {
 
 		try {
@@ -42,8 +42,8 @@ public class ValidationAspect {
 		}
 	}
 
-	// Match any public methods in com.telos.eocil.navigator.service.* package
-//	@Around("execution(public * com.telos.eocil.navigator.dao.*.*(..))")
+	// Match any public methods in viewer.service.* package
+//	@Around("execution(public * viewer.dao.*.*(..))")
 	public Object validateDaoMethodParams(ProceedingJoinPoint pjp) throws Throwable {
 
 		try {
@@ -53,9 +53,7 @@ public class ValidationAspect {
 		}
 	}
 
-	// Match any public methods in an eocil class that is annotated with
-	// @Validate
-//	@Around("execution(public * com.telos.eocil.*.*(..)) && @within(com.telos.eocil.navigator.validator.annotation.Validate)")
+
 	public Object validateMethodInvocation(ProceedingJoinPoint pjp) throws Throwable {
 		return validateMethodParametersAndProceed(pjp);
 	}
