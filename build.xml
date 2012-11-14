@@ -30,13 +30,6 @@
 
     <path id="util" location="${project.src.root}\java\viewer\util"/>
 
-    <!-- ================ -->
-    <!-- Task Definitions -->
-    <!-- ================ -->
-    <taskdef name="hibernatetool" classname="org.hibernate.tool.ant.HibernateToolTask"
-             classpathref="Viewer.module.classpath"/>
-
-
     <!-- ====================== -->
 <!-- Refresh JPA meta model -->
 <!-- ====================== -->
@@ -58,31 +51,6 @@
     </javac>
 </target>
 
-        <!-- ==================== -->
-        <!-- Database Schema Drop -->
-        <!-- ==================== -->
-<target name="schema.drop">
-<java classname="viewer.viewer.setup.WebApp" fork="true" failonerror="true">
-    <classpath>
-        <path refid="Viewer.runtime.module.classpath"/>
-    </classpath>
-    <arg value="dropSchema"/>
-</java>
-</target>
 
-        <!-- ====================== -->
-        <!-- Database Schema Create -->
-        <!-- ====================== -->
-<target name="schema.create" depends="schema.drop">
-<echo message="persistence unit: ${persistence.unit.name}"/>
-
-    <hibernatetool
-
-        destdir="${build.dir}">
-    <classpath path="${build.dir}"/>
-    <jpaconfiguration persistenceunit="${persistence.unit.name}"/>
-    <hbm2ddl export="true" drop="false" create="true" delimiter=";" format="true"/>
-</hibernatetool>
-</target>
 
 </project>
