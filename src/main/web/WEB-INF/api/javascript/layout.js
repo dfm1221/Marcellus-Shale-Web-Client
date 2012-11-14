@@ -26,7 +26,7 @@ var measure;
 
 function initMap() {
 
-  //setup defaults
+  //viewer.setup defaults
   if (configOptions.geometryserviceurl && location.protocol === "https:") {
     configOptions.geometryserviceurl = configOptions.geometryserviceurl.replace('http:', 'https:');
   }

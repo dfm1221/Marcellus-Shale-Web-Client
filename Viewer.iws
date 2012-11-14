@@ -2,25 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="5efedf9a-6cbd-41a5-affa-ef3960a3aa75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aspectjrt-1.6.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.8.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-digester-2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-lang-2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-entitymanager-4.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-tools.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-validator-4.2.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javassist-3.15.0-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-logging-3.1.0.CR2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jtds-1.2.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/log4j-1.2.14.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/servlet-api-2.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/slf4j-api-1.5.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/slf4j-log4j12-1.5.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/DbSchemaOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/DerbySchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/JpaSchemaAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/MSSQLSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/OracleSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/PostgresSchema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/Schema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/SchemaAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/viewer/setup/WebApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/viewer/setup/dbSchemaContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.iml" afterPath="$PROJECT_DIR$/Viewer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.ipr" afterPath="$PROJECT_DIR$/Viewer.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Viewer.iws" afterPath="$PROJECT_DIR$/Viewer.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/api/javascript/layout.js" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/javascript/layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/api/readme.html" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/api/readme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/Dialog.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/Dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/Editor.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/Editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/TitlePane.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/TitlePane.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/Tree.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/Tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/_editor/RichText.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/_editor/RichText.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/_editor/plugins/TabIndent.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/_editor/plugins/TabIndent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/_editor/plugins/ToggleDir.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/_editor/plugins/ToggleDir.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/layout/AccordionContainer.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/layout/AccordionContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/layout/_LayoutWidget.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/layout/_LayoutWidget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/tests/test_Menu.html" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/tests/test_Menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dijit/tests/tree/robot/Tree_dnd.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dijit/tests/tree/robot/Tree_dnd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojo/dom-geometry.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojo/dom-geometry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojo/io/script.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojo/io/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojo/tests/_base/loader.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojo/tests/_base/loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojo/tests/_base/object.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojo/tests/_base/object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/NodeList/delegate.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/NodeList/delegate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/calc/Grapher.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/calc/Grapher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/charting/Chart3D.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/charting/Chart3D.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/charting/Theme.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/charting/Theme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/charting/axis2d/common.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/charting/axis2d/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/data/ServiceStore.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/data/ServiceStore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/buddhist/Date.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/buddhist/Date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/hebrew/Date.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/hebrew/Date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/islamic/Date.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/islamic/Date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/posix.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/date/tests/posix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/drawing/tools/custom/Vector.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/drawing/tools/custom/Vector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/embed/Flash.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/embed/Flash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/flash/_base.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/flash/_base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/form/TriStateCheckBox.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/form/TriStateCheckBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/gfx3d/object.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/gfx3d/object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/gfx/canvasWithEvents.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/gfx/canvasWithEvents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/grid/enhanced/plugins/Selector.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/grid/enhanced/plugins/Selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/highlight/tests/example-java-source.java" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/highlight/tests/example-java-source.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/highlight/widget/Code.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/highlight/widget/Code.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/html/metrics.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/html/metrics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/image/Lightbox.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/image/Lightbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/image/ThumbnailPicker.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/image/ThumbnailPicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/io/tests/windowName.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/io/tests/windowName.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/io/tests/xhrPlugins.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/io/tests/xhrPlugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/jq.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/jq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/lang/observable.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/lang/observable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/layout/ResizeHandle.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/layout/ResizeHandle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/layout/tests/_bottomPane.html" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/layout/tests/_bottomPane.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/math/BigInteger-ext.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/math/BigInteger-ext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/complexListApp/app/assistants/main-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/complexListApp/app/assistants/main-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/dialogApp/app/assistants/main-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/dialogApp/app/assistants/main-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/imageControlsApp/app/assistants/image-view-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/imageControlsApp/app/assistants/image-view-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/imageControlsApp/app/assistants/main-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/imageControlsApp/app/assistants/main-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/inputApp/app/assistants/text-input-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/inputApp/app/assistants/text-input-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/multiSceneApp/app/assistants/main-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/multiSceneApp/app/assistants/main-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/multiSceneApp/app/assistants/second-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/multiSceneApp/app/assistants/second-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/multiSceneApp/app/assistants/third-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/multiSceneApp/app/assistants/third-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/simpleApp/app/assistants/main-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/simpleApp/app/assistants/main-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/simpleListApp/app/assistants/main-assistant.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mobile/tests/simpleListApp/app/assistants/main-assistant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mvc/_patches.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/mvc/_patches.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/socket.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/socket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/timing/Streamer.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/timing/Streamer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/widget/FisheyeList.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/widget/FisheyeList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/widget/Loader.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/widget/Loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/widget/Roller.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/widget/Roller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/resources/js/dojox/xmpp/TransportSession.js" afterPath="$PROJECT_DIR$/src/main/web/resources/js/dojox/xmpp/TransportSession.js" />
     </list>
     <list id="94f03b00-4847-4fef-b040-abf246513a7b" name="Rejected commit: Default" comment="Initial Commit of src, persistence.xml, META-INF, and web" />
     <list id="8eb1287a-9660-40c9-8d40-51395cd8442e" name="ignored" comment="" />
@@ -40,6 +98,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/viewer/setup/DbSchemaOperations.java" line="31" class="viewer.setup.DbSchemaOperations" package="viewer.setup">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -80,37 +153,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+      <file leaf-file-name="DbSchemaOperations.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/DbSchemaOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Password.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/util/Password.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="75" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User_.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/generated/viewer/model/User_.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="56" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+            <state line="21" column="82" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,37 +164,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Viewer.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Viewer.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="84" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.6695843">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-access-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/dao/data-access-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="64" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="persistence.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="72" selection-start="486" selection-end="530" vertical-scroll-proportion="0.0">
+            <state line="15" column="107" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.4450262">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/dao/UserDaoImpl.java">
+      <file leaf-file-name="dbSchemaContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/setup/dbSchemaContext.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="14" column="69" selection-start="775" selection-end="775" vertical-scroll-proportion="-11.9">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/WebApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="37" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MSSQLSchema.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/MSSQLSchema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostgresSchema.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/PostgresSchema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OracleSchema.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/OracleSchema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Schema.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/Schema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DerbySchema.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/DerbySchema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,22 +261,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/viewer/security/authentication/PreAuth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/security/constants/PreAuth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/security/authentication/NavigatorPreAuthenticatedProcessingFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/security/constants/PreAuthenticationConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/viewer/security/authentication.properties" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml" />
-        <option value="$PROJECT_DIR$/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/main/generated/viewer/model/User_.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/util/Password.java" />
-        <option value="$PROJECT_DIR$/src/main/java/viewer/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Viewer.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/WebApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/DB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/Schema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/Db.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/Jpa.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/setup/dbSchemaContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/MSSQLSchema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/OracleSchema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/PostgresSchema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/DerbySchema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/viewer/setup/DbSchemaOperations.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/viewer/setup/dbSchemaContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
       </list>
     </option>
   </component>
@@ -194,10 +288,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -225,16 +319,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,7 +387,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Viewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSWC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,29 +435,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="generated" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Viewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MSWC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,6 +455,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Viewer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -397,15 +495,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/viewer/dao" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/resources/viewer" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="project.structure.side.proportion" value="0.3120638" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -415,16 +514,11 @@
       <recent name="viewer.web.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\11685\Projects\MSWC\src\main\java\viewer\setup" />
+      <recent name="C:\Users\11685\Projects\MSWC\src\main\resources\setup" />
       <recent name="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF\views" />
       <recent name="C:\Users\11685\Projects\MSWC\src\main\web\resources\js\viewer" />
       <recent name="C:\Users\11685\Projects\MSWC\src\main\java\viewer" />
-      <recent name="C:\Users\11685\Projects\MSWC\src\main\resources" />
-      <recent name="C:\Users\11685\Projects\MSWC\src\main\web\resources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="viewer.web" />
-      <recent name="viewer.dao" />
-      <recent name="viewer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\11685\Projects\MSWC\src\main\resources" />
@@ -432,6 +526,11 @@
       <recent name="C:\Users\11685\Projects\MSWC\src\main\web\WEB-INF" />
       <recent name="C:\Users\11685\Projects\MSWC\src\main\resources\viewer" />
       <recent name="C:\Users\11685\Projects\MSWC\src\main\web\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="viewer" />
+      <recent name="viewer.web" />
+      <recent name="viewer.dao" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 6">
@@ -556,6 +655,46 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="false" name="Drop Schema" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="viewer.setup.WebApp" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="dropSchema" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Viewer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Create Schema" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="viewer.setup.WebApp" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="createSchema" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Viewer" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="Tomcat 6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -628,8 +767,10 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Drop Schema" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Create Schema" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6" />
     </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -684,7 +825,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -692,21 +833,21 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973711" sideWeight="0.49390918" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45182723" sideWeight="0.48948476" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32681867" sideWeight="0.4957939" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.6710098" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.48948476" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49058694" sideWeight="0.5068349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2303433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3709856" sideWeight="0.54942167" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34961998" sideWeight="0.54942167" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17770767" sideWeight="0.5481728" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32225913" sideWeight="0.9253417" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17760417" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3213898" sideWeight="0.9253417" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.4957939" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -749,7 +890,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration of database dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="db changes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -771,6 +912,8 @@
     <MESSAGE value="Issues with spring security and login controller. Still working on it." />
     <MESSAGE value="Rewiring of spring application dependencies." />
     <MESSAGE value="Configuration of database dependencies" />
+    <MESSAGE value="Everything is wired up and tested other than the DB connection." />
+    <MESSAGE value="db changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -793,117 +936,116 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-web.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-security-core-3.1.1.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.035416666" />
+        <state line="16" column="78" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/security/authentication/UsernameLookupUserDetailsServiceImpl.java">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-security-core-3.1.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" />
+        <state line="28" column="60" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-security-web-3.1.1.RELEASE.jar!/org/springframework/security/web/authentication/preauth/AbstractPreAuthenticatedProcessingFilter.class">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-security-web-3.1.1.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="202" selection-end="202" vertical-scroll-proportion="0.14345992" />
+        <state line="27" column="16" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/SchemaAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="54" selection-start="1753" selection-end="1753" vertical-scroll-proportion="-25.0" />
+        <state line="9" column="25" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/dao/data-access-config.xml">
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/web/web-application-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-18.7" />
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
+        <state line="24" column="64" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/JpaSchemaAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="104" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-28.05" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/security/security-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="97" selection-start="2119" selection-end="2119" vertical-scroll-proportion="-19.1" />
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.1.1.Final.jar!/org/hibernate/dialect/SQLServer2008Dialect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.17941953" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/generated/viewer/model/User_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="56" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+        <state line="10" column="23" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/util/Password.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/MSSQLSchema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="75" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/OracleSchema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/dao/data-access-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/PostgresSchema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="64" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/DerbySchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/Schema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/viewer/setup/dbSchemaContext.xml">
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="69" selection-start="775" selection-end="775" vertical-scroll-proportion="-11.9">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/WebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/viewer/setup/DbSchemaOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="82" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="72" selection-start="486" selection-end="530" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Viewer.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="84" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.6695843">
+        <state line="15" column="107" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.4450262">
           <folding />
         </state>
       </provider>

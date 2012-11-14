@@ -21,6 +21,7 @@
           <file>file://$MODULE_DIR$/src/main/resources/viewer/service/service-config.xml</file>
           <file>file://$MODULE_DIR$/src/main/web/WEB-INF/security-config.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/viewer/validator-aspect-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/viewer/setup/dbSchemaContext.xml</file>
         </fileset>
       </configuration>
     </facet>

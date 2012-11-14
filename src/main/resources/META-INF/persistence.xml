@@ -15,7 +15,7 @@
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="false"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
-            <!--<property name="hibernate.hbm2ddl.auto" value="create"/>-->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
 
             <!-- Hibernate Search Properties -->
             <property name="hibernate.search.default.directory_provider"
