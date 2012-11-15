@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
 import viewer.dao.UserDao;
 import viewer.model.User;
 
@@ -21,7 +20,12 @@ public class UsernameLookupUserDetailsServiceImpl extends AbstractUserDetailsSer
         if (StringUtils.isBlank(username)) {
             throw new UsernameNotFoundException("Username not found: Username is blank");
         }
-        User user = userDao.readByUsernameForPasswordLogin(username);
+        User user = null;
+        try{
+            user = userDao.readByUsernameForPasswordLogin(username);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
         if (user == null) {
             throw new UsernameNotFoundException("Username not found: " + username);
         }
