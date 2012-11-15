@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
     <title></title>
@@ -10,7 +10,10 @@
 
     <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/dojo/dojox/layout/resources/floatingpane.css">
     <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/esri/css/esri.css" />
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <%--<link rel="stylesheet" type="text/css" href="css/layout.css"/>--%>
+    <link href="<c:url value="/resources/styles/layout.css" />" rel="stylesheet" type="text/css">
+     </head>
+
 
     <!--[if IE]>
       <link rel="stylesheet" type="text/css" href="css/ie.css" />

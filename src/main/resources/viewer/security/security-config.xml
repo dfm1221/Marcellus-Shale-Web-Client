@@ -16,6 +16,8 @@
 	<http pattern="/resources/js/dijit/**" security="none" />
 	<http pattern="/resources/js/util/**" security="none" />
 	<http pattern="/resources/img/**" security="none" />
+	<http pattern="/javascript/**" security="none" />
+	<http pattern="/css/**" security="none" />
 	<http pattern="/sjs/**" security="none" />
 
 
@@ -37,6 +39,7 @@
 		<intercept-url pattern="/" access="permitAll" />
 		<intercept-url pattern="/login" access="permitAll" />
 		<intercept-url pattern="/authFailure.*" access="permitAll" />
+		<intercept-url pattern="/logout" access="permitAll" />
 		<intercept-url pattern="/logout" access="permitAll" />
 		<!---->
 
