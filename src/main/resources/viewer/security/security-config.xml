@@ -32,7 +32,7 @@
 		</session-management>
 
 		<access-denied-handler error-page="/authFailure/accessDenied"/>
-		<form-login login-page="/login" default-target-url="/home" authentication-failure-url="/authFailure/badCredentails" />
+		<form-login login-page="/login" default-target-url="/mapView" authentication-failure-url="/authFailure/badCredentails" />
 		<logout logout-success-url="/logout" delete-cookies="JSESSIONID" />
 
 		 <!--Login/logout pages do not require credentials -->
