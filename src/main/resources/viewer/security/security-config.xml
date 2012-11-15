@@ -42,7 +42,7 @@
 
 		<!-- Home page (will be different depending on the user) -->
 		<intercept-url pattern="/home" access="isAuthenticated()" />
-        <intercept-url pattern="/readme" access="isAuthenticated()"/>
+        <intercept-url pattern="/other" access="isAuthenticated()"/>
 
 		<!-- Misc. -->
 		<intercept-url pattern="/error" access="permitAll" />
