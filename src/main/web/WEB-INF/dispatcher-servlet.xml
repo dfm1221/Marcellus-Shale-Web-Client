@@ -12,6 +12,9 @@
 
     <context:property-placeholder location="classpath:Viewer.properties" />
     <mvc:resources location="/resources/" mapping="/resources/**" />
+    <mvc:resources location="/javascript/" mapping="/javascript/**" />
+    <mvc:resources location="/apl/ElevationsChart/" mapping="/apl/ElevationsChart/**" />
+
 
      <!--Exception Handler -->
     <!--<bean class="viewer.web.servlet.ExceptionHandler"></bean>-->
