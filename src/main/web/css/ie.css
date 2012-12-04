@@ -24,7 +24,7 @@ body{
   float:left;
 }
 .esriPrint .dijitComboButton .dijitIcon{
-  background-image:url(../images/genericprint.png);
+  background-image:url(../WEB-INF/views/images/genericprint.png);
   background-repeat:no-repeat;
   float:left;
   width:16px;

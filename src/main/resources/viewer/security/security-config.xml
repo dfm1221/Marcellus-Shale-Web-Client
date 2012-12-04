@@ -18,10 +18,11 @@
 	<http pattern="/resources/img/**" security="none" />
 	<http pattern="/javascript/**" security="none" />
 	<http pattern="/apl/ElevationsChart/**" security="none" />
+	<http pattern="/nls/**" security="none" />
+	<http pattern="/images/**" security="none" />
+	<http pattern="/documentation/**" security="none" />
 	<http pattern="/css/**" security="none" />
 	<http pattern="/sjs/**" security="none" />
-	<http pattern="http://serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/dojo/dojo/esriTemplate/nls/template.js" security="none" />
-	<http pattern="serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/dojo/dojo/esriTemplate/nls/template.js" security="none" />
 
 
 	<b:bean id="http403EntryPoint" class="org.springframework.security.web.authentication.Http403ForbiddenEntryPoint" />

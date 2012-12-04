@@ -1,40 +1,41 @@
 
 /*The image specified for the body is used to apply the gradient background to the entire page*/
 body {
-  background:url(../images/orange/body_bg.png) repeat-x #ffcd76;
+  background:url(../WEB-INF/views/images/purple/body_bg.png) repeat-x #666666;
 }
 #leftPane {
-  background-color:#fff9de;
+  background-color:#f5f1f8;
 }
 /*override claro background and other props*/
 #toolbarContainer .dijitToolbar {
-  background:url(../images/orange/toolbar_bg.png) repeat-x #545454;
+  background:url(../WEB-INF/views/images/purple/toolbar_bg.png) repeat-x #593e7f;
 }
 /*Measure toggle button*/
 .claro .dijitToolbar .dijitButtonNode:hover {
-  background:url(../images/orange/sidebar_header_active_bg.png) repeat-x #CEE1EC;
+  background:url(../WEB-INF/views/images/purple/sidebar_header_active_bg.png) repeat-x #c1bacb;
 }
 .claro .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode {
-   background:url(../images/orange/sidebar_header_active_bg.png) repeat-x #CEE1EC;
+   background:url(../WEB-INF/views/images/purple/sidebar_header_active_bg.png) repeat-x #c1bacb;
 }
+
 /*Attribute Inspector button styling (delete buttons)*/
 .esriAttributeInspector div.atiButtons span.dijit span.dijitReset{
-  background:url(../images/orange/toolbar_bg.png) repeat #545454;
+  background:url(../WEB-INF/views/images/purple/toolbar_bg.png) repeat-x #593e7f;
   color:#fff;
   border: none;
 }
 .esriAttributeInspector div.atiButtons span.dijit span.dijitReset:hover{
-  background:url(../images/orange/sidebar_header_active_bg.png) repeat-x #CEE1EC;
+  background:url(../WEB-INF/views/images/purple/sidebar_header_active_bg.png) repeat-x #c1bacb;
   color:#000;
 }
 
 
 .dojoxFloatingPaneTitle{
-  background:url(../images/orange/toolbar_bg.png) repeat-x #545454;
+  background:url(../WEB-INF/views/images/purple/toolbar_bg.png) repeat-x #593e7f;
 }
 
 .esriPopup .titlePane{
-  background-color:#ba7000;
+  background-color:#4e2071;
   border-style:none;
 }
 .esriPopup .titleButton,
@@ -42,21 +43,20 @@ body {
 .esriPopup .outerPointer,
 .esriPopup .esriViewPopup .gallery .mediaHandle,
 .esriPopup .esriViewPopup .gallery .mediaIcon{
-  background: url(../images/orange/popup.png) no-repeat scroll 0 0 transparent;
+  background: url(../WEB-INF/views/images/purple/popup.png) no-repeat scroll 0 0 transparent;
 }
 
 
 /*slider background*/
 .esriSimpleSliderVertical .esriSimpleSliderIncrementButton ,.esriSimpleSliderVertical .esriSimpleSliderDecrementButton  {
-  background:url(../images/orange/toolbar_bg.png) repeat-x #545454;
-  border:solid 1px #545454;
+  background:url(../WEB-INF/views/images/purple/toolbar_bg.png) repeat-x #593e7f;
+  border:solid 1px #593e7f;
 }
-
-/*Identity Manager Dialog*/
+ /*Identity Manager Dialog*/
 .claro .dijitDialogTitleBar {
-  background:url(../images/orange/toolbar_bg.png) repeat-x #545454;
+  background:url(../WEB-INF/views/images/purple/toolbar_bg.png) repeat-x #545454;
   color:#fff;
-  border: none !important;
+  border: solid 1px #593e7f;
 }
 .claro .dijitDialog {
     border: 1px solid #808080;
@@ -64,9 +64,9 @@ body {
 
 .claro .dijitDialogPaneActionBar .dijitButtonNode{
   background-image:none;
-  border: 1px solid #545454;
-  background:url(../images/orange/sidebar_header_active_bg.png) repeat-x #CEE1EC;
+  border: solid 1px #593e7f;
+  background:url(../WEB-INF/views/images/purple/sidebar_header_active_bg.png) repeat-x #CEE1EC;
 }
 .esriBookmarkItem:hover{
-  background-color:#CEE1EC;
+  background-color:#c1bacb;
 }
