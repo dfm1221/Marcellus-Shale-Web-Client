@@ -45,12 +45,12 @@
 		<intercept-url pattern="/authFailure.*" access="permitAll" />
 		<intercept-url pattern="/logout" access="permitAll" />
 		<intercept-url pattern="/logout" access="permitAll" />
-		<intercept-url pattern="http://serverapi.arcgisonline.com/jsapi/arcgis/3.2/js/dojo/dojo/esriTemplate/nls/template.js" access="permitAll" />
 		<!---->
 
 		<!-- Home page (will be different depending on the user) -->
 		<intercept-url pattern="/home" access="isAuthenticated()" />
         <intercept-url pattern="/other" access="isAuthenticated()"/>
+        <intercept-url pattern="/mapView" access="isAuthenticated()"/>
 
 		<!-- Misc. -->
 		<intercept-url pattern="/error" access="permitAll" />
