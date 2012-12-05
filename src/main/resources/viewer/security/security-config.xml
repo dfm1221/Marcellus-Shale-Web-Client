@@ -48,7 +48,7 @@
 		<!---->
 
 		<!-- Home page (will be different depending on the user) -->
-		<intercept-url pattern="/home" access="isAuthenticated()" />
+		<intercept-url pattern="/home" access="permitAll" />
         <intercept-url pattern="/other" access="isAuthenticated()"/>
         <intercept-url pattern="/mapView" access="isAuthenticated()"/>
 

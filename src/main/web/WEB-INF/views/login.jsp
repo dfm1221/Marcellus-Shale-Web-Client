@@ -74,7 +74,7 @@
                                 <tr>
                                     <td colspan="2">
                                         New User?
-                                        <a onclick="return LoginShowDock();" id="mainLoginForm_openAccountForm" href="javascript:__doPostBack('mainLoginForm$openAccountForm','')">Request Account</a>
+                                        <a href="home">Request Account</a>
                                     </td>
                                 </tr>
                                 <tr>
