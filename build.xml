@@ -172,6 +172,7 @@
         <path refid="library.tomcat.classpath"/>
         <path refid="library.gwt-comet.classpath"/>
         <path refid="library.bouncycastle.classpath"/>
+        <path refid="library.dozer.classpath"/>
     </path>
 
 

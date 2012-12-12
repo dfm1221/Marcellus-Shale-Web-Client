@@ -11,12 +11,14 @@
 
 	<context:component-scan base-package="viewer.service" />
 
-	<bean id="serviceBeanMapper" class="org.dozer.DozerBeanMapper" lazy-init="false" scope="singleton">
-		<property name="mappingFiles">
-			<list>
-				<value>service-dozer-mappings.xml</value>
-			</list>
-		</property>
+	<bean id="serviceBeanMapper" class="org.dozer.DozerBeanMapper">
+        <property name="mappingFiles">
+            <list>
+                <!--<value>dozer-global-configuration.xml</value>-->
+                <value>viewer/service/service-dozer-mappings.xml</value>
+
+            </list>
+        </property>
 	</bean>
 
 
