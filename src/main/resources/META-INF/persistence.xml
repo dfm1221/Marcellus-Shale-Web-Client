@@ -4,7 +4,7 @@
              http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
              version="1.0">
 
-    <persistence-unit name="mscv">
+    <persistence-unit name="mswc">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <properties>
             <property name="hibernate.connection.url" value="jdbc:jtds:sqlserver://localhost:1433/mswc"/>
