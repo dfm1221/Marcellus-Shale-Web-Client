@@ -15,10 +15,10 @@ import java.util.Collection;
 public class SavedMapDaoImpl extends JpaSingleEntityDao<SavedMap> implements SavedMapDao {
 
     public SavedMap read(Long id) {
-        return null;
+        return read(SavedMap.class, id);
     }
 
     public Collection<SavedMap> readAll() {
-        return null;
+        return entityManager.createQuery("from SavedMap order by name").getResultList();
     }
 }

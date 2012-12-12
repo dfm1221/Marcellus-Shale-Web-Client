@@ -19,6 +19,9 @@ public class SavedMap extends OBJ{
     @Column(unique = true, nullable = false, length = 128)
     private String name;
 
+    @Column(unique = true, nullable = false, length = 10)
+    private Integer uniqueESRIID;
+
     private int latitude;
 
     private int longitude;
@@ -107,5 +110,13 @@ public class SavedMap extends OBJ{
 
     public void setLastModifiedDate(Date lastModifiedDate) {
         this.lastModifiedDate = lastModifiedDate;
+    }
+
+    public Integer getUniqueESRIID() {
+        return uniqueESRIID;
+    }
+
+    public void setUniqueESRIID(Integer uniqueESRIID) {
+        this.uniqueESRIID = uniqueESRIID;
     }
 }
