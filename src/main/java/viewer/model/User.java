@@ -34,6 +34,12 @@ public class User extends OBJ{
     @Temporal(value = TemporalType.DATE)
     private Date lastLoggedInDate;
 
+    @Column (unique = false, nullable = true, length = 45)
+    private String facebookName;
+
+    @Column (unique = false, nullable = true, length = 45)
+    private String facebookPass;
+
     public String getUserName() {
         return userName;
     }
@@ -84,5 +90,21 @@ public class User extends OBJ{
 
     public void setLastLoggedInDate(Date lastLoggedInDate) {
         this.lastLoggedInDate = lastLoggedInDate;
+    }
+
+    public String getFacebookName() {
+        return facebookName;
+    }
+
+    public void setFacebookName(String facebookName) {
+        this.facebookName = facebookName;
+    }
+
+    public String getFacebookPass() {
+        return facebookPass;
+    }
+
+    public void setFacebookPass(String facebookPass) {
+        this.facebookPass = facebookPass;
     }
 }

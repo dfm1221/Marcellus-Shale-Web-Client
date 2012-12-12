@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <project name="MSWC" default="generate.jpa.metamodel" basedir=".">
 
+    <property file="src/main/resources/viewer.properties" />
+    <import file="viewer.xml"/>
+
+    <patternset id="compiler.resources">
+    <include name="**/?*.properties"/>
+    <include name="**/?*.xml"/>
+    </patternset>
+
+
     <path id="Viewer.module.classpath" location="${basedir}"  />
     <path id="Viewer.runtime.module.classpath" >
         <pathelement location="${basedir}\out\production\Viewer"/>
     </path>
 
+    <path id="jdk.classpath.1.6">
+        <fileset dir="${jdk.home.1.6}">
+            <include name="jre/lib/alt-rt.jar"/>
+            <include name="jre/lib/charsets.jar"/>
+            <include name="jre/lib/deploy.jar"/>
+            <include name="jre/lib/javaws.jar"/>
+            <include name="jre/lib/jce.jar"/>
+            <include name="jre/lib/jsse.jar"/>
+            <include name="jre/lib/management-agent.jar"/>
+            <include name="jre/lib/plugin.jar"/>
+            <include name="jre/lib/resources.jar"/>
+            <include name="jre/lib/rt.jar"/>
+            <include name="jre/lib/ext/dnsns.jar"/>
+            <include name="jre/lib/ext/localedata.jar"/>
+            <include name="jre/lib/ext/sunjce_provider.jar"/>
+            <include name="jre/lib/ext/sunmscapi.jar"/>
+            <include name="jre/lib/ext/sunpkcs11.jar"/>
+            <include name="jre/lib/ext/bcprov-jdk16-145.jar"/>
+        </fileset>
+    </path>
 
-
+    <dirname property="module.viewer.basedir" file="${ant.file}"/>
 
     <!-- Environment Variables -->
     <property environment="env"/>
-    <property name="jdk.home.1.6" value="${env.JAVA_HOME}"/>
+    <!--<property name="jdk.home.1.6" value="${env.JAVA_HOME}"/>-->
     <property name="path.variable.class" value="${env.windir}"/>
     <property name="path.variable.junit_home" value="{env.JUNIT_HOME}"/>
+
+
 
     <!-- Begin integrate md.xml via ANT build inheritance -->
     <property file="${basedir}/src/main/resources/Viewer.properties"/>
@@ -28,7 +59,126 @@
     <property name="src.java.dir" value="${proj.root.dir}/src/main/java"/>
     <property name="junit.test.results" value="${basedir}/build/test_results"/>
 
+    <property name="viewer.testoutput.dir" value="${module.viewer.basedir}/build/test"/>
+    <property name="viewer.output.dir" value="${module.viewer.basedir}/build/main"/>
+    <property name="module.jdk.bin.viewer" value="${jdk.home.1.6}/bin"/>
+    <property name="project.jdk.classpath" value="jdk.classpath.1.6"/>
+    <property name="module.jdk.classpath.viewer" value="${project.jdk.classpath}"/>
+
+
     <path id="util" location="${project.src.root}\java\viewer\util"/>
+
+
+    <path id="viewer.module.test.sourcepath">
+        <dirset dir="${module.viewer.basedir}">
+            <include name="src/test/java"/>
+            <!--<include name="src/test/resources"/>-->
+            <include name="resources/apache-tomcat-6.0.26/conf"/>
+        </dirset>
+    </path>
+
+    <path id="viewer.module.sourcepath">
+        <dirset dir="${module.viewer.basedir}">
+            <include name="src/main/java"/>
+            <include name="src/main/generated"/>
+            <include name="src/main/resources"/>
+            <include name="resources/apache-tomcat-6.0.26/conf"/>
+        </dirset>
+    </path>
+
+    <path id="viewer.runtime.production.module.classpath">
+        <pathelement location="${viewer.output.dir}"/>
+        <path refid="library.java_ee_6.classpath"/>
+        <path refid="library.hibernate3.classpath"/>
+        <path refid="library.gxt.classpath"/>
+        <path refid="library.spring.classpath"/>
+        <path refid="library.apache-commons.classpath"/>
+        <path refid="library.dozer.classpath"/>
+        <path refid="library.aopalliance.classpath"/>
+        <path refid="library.jtds.classpath"/>
+        <path refid="library.oreilly-multipart-parser.classpath"/>
+        <path refid="library.gwt-user.classpath"/>
+        <path refid="library.gwt-servlet.classpath"/>
+        <path refid="library.spring-security.classpath"/>
+        <path refid="library.xstream.classpath"/>
+        <path refid="library.aspectj.classpath"/>
+        <path refid="library.slf4j.classpath"/>
+        <path refid="library.hibernate-validator.classpath"/>
+        <path refid="library.mail.classpath"/>
+        <path refid="library.velocity.classpath"/>
+        <path refid="library.ojdbc.classpath"/>
+        <path refid="library.tomcat.classpath"/>
+        <path refid="library.gwt-comet.classpath"/>
+        <path refid="library.bouncycastle.classpath"/>
+    </path>
+
+    <path id="viewer.module.classpath">
+        <path refid="${module.jdk.classpath.viewer}"/>
+        <pathelement location="${viewer.output.dir}"/>
+        <path refid="library.java_ee_6.classpath"/>
+        <path refid="library.hibernate3.classpath"/>
+        <path refid="library.gxt.classpath"/>
+        <path refid="library.spring.classpath"/>
+        <path refid="library.apache-commons.classpath"/>
+        <path refid="library.dozer.classpath"/>
+        <path refid="library.aopalliance.classpath"/>
+        <path refid="library.jtds.classpath"/>
+        <path refid="library.junit.classpath"/>
+        <path refid="library.oreilly-multipart-parser.classpath"/>
+        <path refid="library.gwt-user.classpath"/>
+        <path refid="library.gwt-servlet.classpath"/>
+        <path refid="library.mockito.classpath"/>
+        <path refid="library.spring-test.classpath"/>
+        <path refid="library.spring-security.classpath"/>
+        <path refid="library.xstream.classpath"/>
+        <path refid="library.hibernate-jpamodelgen.classpath"/>
+        <path refid="library.aspectj.classpath"/>
+        <path refid="library.slf4j.classpath"/>
+        <path refid="library.hibernate-validator.classpath"/>
+        <path refid="library.mail.classpath"/>
+        <path refid="library.velocity.classpath"/>
+        <path refid="library.ojdbc.classpath"/>
+        <path refid="library.tomcat.classpath"/>
+        <path refid="library.gwt-comet.classpath"/>
+        <path refid="library.bouncycastle.classpath"/>
+    </path>
+
+    <path id="md.runtime.module.classpath">
+        <pathelement location="${viewer.output.dir}"/>
+        <pathelement location="${viewer.testoutput.dir}"/>
+        <path refid="library.java_ee_6.classpath"/>
+        <path refid="library.hibernate3.classpath"/>
+        <path refid="library.gxt.classpath"/>
+        <path refid="library.spring.classpath"/>
+        <path refid="library.apache-commons.classpath"/>
+        <path refid="library.dozer.classpath"/>
+        <path refid="library.aopalliance.classpath"/>
+        <path refid="library.jtds.classpath"/>
+        <path refid="library.junit.classpath"/>
+        <path refid="library.oreilly-multipart-parser.classpath"/>
+        <path refid="library.gwt-user.classpath"/>
+        <path refid="library.gwt-servlet.classpath"/>
+        <path refid="library.mockito.classpath"/>
+        <path refid="library.spring-test.classpath"/>
+        <path refid="library.spring-security.classpath"/>
+        <path refid="library.xstream.classpath"/>
+        <path refid="library.hibernate-jpamodelgen.classpath"/>
+        <path refid="library.aspectj.classpath"/>
+        <path refid="library.slf4j.classpath"/>
+        <path refid="library.hibernate-validator.classpath"/>
+        <path refid="library.mail.classpath"/>
+        <path refid="library.velocity.classpath"/>
+        <path refid="library.ojdbc.classpath"/>
+        <path refid="library.tomcat.classpath"/>
+        <path refid="library.gwt-comet.classpath"/>
+        <path refid="library.bouncycastle.classpath"/>
+    </path>
+
+
+    <path id="viewer.module.bootclasspath">
+        <fileset dir="${module.viewer.basedir}/src/main/java/viewer/model"/>
+    </path>
+
 
     <!-- ====================== -->
 <!-- Refresh JPA meta model -->
@@ -51,6 +201,81 @@
     </javac>
 </target>
 
+    <!-- ====================== -->
+    <!-- Run JUnit Tests -->
+    <!-- ====================== -->
+
+
+
+    <target name="tests.run" depends="compile.module.viewer.tests">
+        <mkdir dir="${junit.test.results}"/>
+        <junit printsummary="true" showoutput="true" failureProperty="test.failed" >
+            <classpath refid="md.runtime.module.classpath"/>
+            <jvmarg value="-Xmx512M"/>
+            <jvmarg value="-XX:MaxPermSize=256M"/>
+            <jvmarg value="-XX:+CMSClassUnloadingEnabled"/>
+            <jvmarg value="-XX:+UseConcMarkSweepGC"/>
+            <!--<jvmarg value="-Dgwt.args=-gen ${gwt.gensrc.dir} -out ${gwt.build.dir}"/>-->
+            <formatter type="xml"/>
+            <!--<test name="${test.class}" todir="${junit.report}" if="test.class"/>-->
+            <!--unless="test.class"-->
+            <batchtest fork="true" todir="${junit.test.results}">
+                <fileset dir="${basedir}/src/test/java">
+                    <include name="**/*Test.java"/>
+                    <exclude name="**/AllTests.java"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+
+    <target name="compile.module.viewer.production" description="Compile module md; production classes">
+        <mkdir dir="${viewer.output.dir}"/>
+        <javac destdir="${viewer.output.dir}" debug="on" nowarn="off}"
+               memorymaximumsize="256m" fork="true" executable="${module.jdk.bin.viewer}/javac">
+            <!--<compilerarg line="${compiler.args.md}"/>-->
+            <bootclasspath refid="viewer.module.classpath"/>
+            <classpath refid="viewer.runtime.production.module.classpath"/>
+            <src refid="viewer.module.sourcepath"/>
+            <!--<patternset refid="excluded.from.compilation.md"/>-->
+        </javac>
+
+        <copy todir="${viewer.testoutput.dir}">
+            <fileset dir="${module.viewer.basedir}/src/main/java">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+            <fileset dir="${module.viewer.basedir}/src/main/resources">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+            <fileset dir="${module.viewer.basedir}/src/main/generated">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compile.module.viewer.tests" depends="compile.module.viewer.production"  description="compile module viewer; test classes" unless="skip.tests">
+        <mkdir dir="${viewer.testoutput.dir}"/>
+        <javac destdir="${viewer.testoutput.dir}" debug="on" nowarn="off"
+               memorymaximumsize="256m" fork="true" executable="${module.jdk.bin.viewer}/javac">
+            <compilerarg line=""/>
+            <bootclasspath refid="viewer.module.bootclasspath"/>
+            <classpath refid="viewer.module.classpath"/>
+            <src refid="viewer.module.test.sourcepath"/>
+            <!--<patternset refid="excluded.from.compilation.md"/>-->
+        </javac>
+
+        <copy todir="${viewer.testoutput.dir}">
+            <fileset dir="${module.viewer.basedir}/src/test/java">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+
+
+        </copy>
+    </target>
 
 
 </project>

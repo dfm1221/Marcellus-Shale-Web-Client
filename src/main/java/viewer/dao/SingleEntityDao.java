@@ -6,7 +6,6 @@ package viewer.dao;
  * Time: 8:30 PM
  */
 
-import viewer.dto.BasePersistentDto;
 import viewer.model.OBJ;
 
 import java.util.Collection;
@@ -25,7 +24,7 @@ public interface SingleEntityDao<T extends OBJ>  {
 
     public T read(Long id);
 
-    public Collection<T> readAll(Collection<? extends BasePersistentDto> dtoCollection);
+    public Collection<T> readAll();
 
     public T update(T obj);
 

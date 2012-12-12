@@ -1,7 +1,6 @@
 package viewer.dao;
 
 import org.springframework.stereotype.Repository;
-import viewer.dto.BasePersistentDto;
 import viewer.model.User;
 import viewer.model.User_;
 
@@ -22,12 +21,12 @@ import java.util.Collection;
 public class UserDaoImpl extends JpaSingleEntityDao<User> implements UserDao {
     @Override
     public User read(Long id) {
-        return null;
+        return read(User.class, id);
     }
 
     @Override
-    public Collection<User> readAll(Collection<? extends BasePersistentDto> dtoCollection) {
-        return null;
+    public Collection<User> readAll() {
+        return entityManager.createQuery("from User order by lastName").getResultList();
     }
 
     @Override

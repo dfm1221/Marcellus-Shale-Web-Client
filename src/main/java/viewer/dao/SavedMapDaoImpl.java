@@ -1,7 +1,6 @@
 package viewer.dao;
 
 import org.springframework.stereotype.Repository;
-import viewer.dto.BasePersistentDto;
 import viewer.model.SavedMap;
 
 import java.util.Collection;
@@ -19,7 +18,7 @@ public class SavedMapDaoImpl extends JpaSingleEntityDao<SavedMap> implements Sav
         return null;
     }
 
-    public Collection<SavedMap> readAll(Collection<? extends BasePersistentDto> dtoCollection) {
+    public Collection<SavedMap> readAll() {
         return null;
     }
 }
